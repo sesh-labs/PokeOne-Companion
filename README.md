@@ -2,12 +2,12 @@
 
 A free, offline companion app to keep open while you play **PokéOne**. It shows the wild Pokémon, items, people and gym where you are, tracks your badges, team and goals, and has a searchable Pokédex. It uses game information from the official PokéOne website.
 
-> **Beta.** This is an early test version. Expect rough edges, and please report what you find.
+> **Private beta.** Only invited testers can see this page. This is an early test version. Expect rough edges, and please report what you find.
 > PokeOne Companion is an unofficial fan-made tool, not affiliated with PokéOne, Nintendo, Game Freak or The Pokémon Company.
 
 ## Download
 
-**[⬇ Download the latest version](https://github.com/sesh-lab/PokeOne-Companion/releases/latest)**
+**[⬇ Download the latest version](https://github.com/sesh-labs/PokeOne-Companion/releases/latest)**
 
 On that page, under **Assets**, click **`PokeOne-Companion-0.1.0-beta-win-x64.zip`** (about 160 MB).
 
@@ -26,4 +26,4 @@ The full **Beta Tester Guide** (`POKEONE_COMPANION_BETA_GUIDE.md`) is inside the
 
 ## Report a problem or suggest an idea
 
-Use **[Issues](https://github.com/sesh-lab/PokeOne-Companion/issues)** → **New issue** (a free GitHub account is needed). You can also use **Settings → Report a problem on GitHub** inside the app. Please include **Settings → Copy diagnostic information**. Issues are public, so don't include anything private.
+Use **[Issues](https://github.com/sesh-labs/PokeOne-Companion/issues)** → **New issue**. You can also use **Settings → Report a problem on GitHub** inside the app. Please include **Settings → Copy diagnostic information**. Other invited testers can see reports, so don't include anything private.
