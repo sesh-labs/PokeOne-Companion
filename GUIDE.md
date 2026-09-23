@@ -1,6 +1,6 @@
 # PokeOne Companion — Beta Tester Guide
 
-**Version 0.1.5-beta** · Windows 10 and 11 (64-bit)
+**Version 0.1.6-beta** · Windows 10 and 11 (64-bit)
 
 Thank you for testing PokeOne Companion. This guide explains what the app does, how to install it, and how to report what you find. You don't need any technical knowledge.
 
@@ -13,7 +13,7 @@ PokeOne Companion is a program you keep open next to **PokéOne** while you play
 - shows **what lives where you are**: wild Pokémon (with time-of-day rates), items, people and the gym in your current town or route;
 - tracks your **badges and Elite Four** progress in Kanto, Johto and Unova;
 - keeps a record of **your team** and checks your party's type weaknesses and move coverage;
-- has a searchable **Pokédex** of Pokémon, moves, abilities, items, places and NPCs, plus a type-matchup tool;
+- has a searchable **Pokédex** of Pokémon, moves, abilities, items, places, NPCs and natures, plus a type-matchup tool;
 - keeps your **goals and notes**;
 - works **offline**, and saves your progress **on your computer**.
 
@@ -36,7 +36,7 @@ Your progress is saved carefully, but please keep a backup file (see [Exporting 
 
 ## Installation
 
-1. Download `PokeOne-Companion-0.1.5-beta-win-x64.zip`.
+1. Download `PokeOne-Companion-0.1.6-beta-win-x64.zip`.
 2. Right-click the zip file and choose **Extract All…**. Pick a folder you'll remember, for example `Documents\PokeOne Companion`.
    - Please extract it. Running the program from inside the zip without extracting will not work properly.
 3. That's it. There is no installer. The extracted folder *is* the app.
@@ -45,7 +45,7 @@ To remove the app later, delete that folder. Your saved progress is kept separat
 
 ## Launching the application
 
-1. Open the extracted folder `PokeOne-Companion-0.1.5-beta-win-x64`.
+1. Open the extracted folder `PokeOne-Companion-0.1.6-beta-win-x64`.
 2. Double-click **`PokeOne Companion.exe`**.
 3. **The first time only**, Windows may show a blue box saying *"Windows protected your PC"*. This happens because this beta is not digitally signed yet. It is not a sign of a problem with your computer. Click **More info**, then **Run anyway**.
 
@@ -80,7 +80,7 @@ From then on, update the app as you play: change your location when you move, ma
 2. Name your profile.
 3. **Where are you right now?** Pick your current region, then search for the place you're standing in. Also tick any other regions you've played in.
 4. **Which badges do you have?** Tap each badge you've earned. There's a **Mark all eight** shortcut. If you've beaten that region's Elite Four, tick that box too. Your trainer level there is optional. Each region has its own trainer level in PokéOne, so switch region at the top of this step to enter the others. It's used for the Unova requirement.
-5. **Who's in your party?** (optional) Add your current party now, or skip and do it later from the Team page.
+5. **Who's in your party?** (optional) Add your current party now, or skip and do it later from the Team page. You can type each one's level (1–100); a level outside that range says so and isn't saved.
 6. Choose **Finish setup**.
 
 You don't need to enter your whole history. The companion only needs enough to be useful, and you can fill in more whenever you like.
@@ -93,6 +93,8 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 
 ## Main features
 
+**Help where you need it:** a small round **?** beside words like IV, EV, EV yield, nature, catch rate, "depends on time" and ≈ explains them in plain words. Click it (or press Enter), and click anywhere else or press Esc to close it. The **†** and **◦** marks in the wild tables can be clicked the same way.
+
 **Current Location** (home screen)
 - Your current place, with its description from the official site.
 - **Gym here**, if there is one: the leader's team with levels, and which types hit the whole team super-effectively. You can click **Mark badge earned** right there.
@@ -101,7 +103,8 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - Some forms share one encounter slot, although the official site lists each at the full rate (Pumpkaboo's four sizes, Burmy's three cloaks). They're marked **◦** and counted once.
 - A few rows appear only on a Pokémon's own page on the official site, not on the place's page. They're listed last, under **Also listed †**, without a rate, so the table's rates add up. Mega forms never show as wild.
 - Where the official rates in a table can't all be right (they add up to well over or under 100%), the table is tagged **≈ rough numbers** and its numbers start with ≈. The **Key** under the tables gives the total. Headbutt and Rock Smash tables normally add up to less than 100%; there the numbers are shares of the Pokémon you battle, and a note says so.
-- **Items here** (including berry trees) and **People here** (tutors, vendors, trainers and more).
+- **Items here** (including berry trees) and **People here** (tutors, vendors, trainers and more), grouped by role, each role with a line saying what it does (e.g. Move Deleter: "Makes a Pokémon forget a move, even an HM move."). If the official site lists nothing for a place, the box says so instead of disappearing.
+- **Find a service** in the side panel opens the Pokédex's NPC list with a button for each service (Move Reminder, Egg Move Tutor, Move Deleter, PvP shop and more), your current region's NPCs first.
 - A side panel with your goals, region progress and the next badge, your party, and tips from the official FAQ. Endgame tips wait under "more tips" until you've beaten the region's Elite Four.
 - **Change location** is at the top. Recently visited places appear as quick buttons.
 
@@ -110,26 +113,36 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - Elite Four for each region.
 - Your **trainer level in each region** (PokéOne keeps a separate one per region).
 - The requirements for reaching Unova, and which of them you already meet. The level requirement uses your Kanto or Johto level, whichever is higher.
+- On every gym you haven't earned, a folded **Your party** box: how many of the leader's Pokémon your moves hit super-effectively, how many of yours are at risk, and the best match on paper. Open it to see each of their Pokémon: who of yours hits it hard (and with which move), and who it hits hard.
+
+**Bosses**
+- All 26 boss battles, by region: requirement, place, how to start the quest, the teams and their levels (bosses with **Normal**, **Hard** and **Champion** modes show a level for each), and **Your party** against each team.
+- **When:** how often, or on which days, a boss can be fought, where the official Boss Guides say so (e.g. Ho-oh at Bell Tower: once per day, again after the reset; Darkrai's dream changes by weekday; N only on Fridays). Where they don't, it says "Not listed on the official site yet. Check in game."
+- A team listing more than six Pokémon is a list the boss picks from; the page says so.
 
 **Team**
 - Your **party** (up to six) and a **bench**: Pokémon you're keeping an eye on but not carrying right now. When your party is full, new Pokémon go to the bench.
-- Edit nickname, level, nature, ability, moves, held item and notes. The editor opens with the cursor in **Level**. The move list only offers moves that Pokémon can learn according to the official site, and any of the four slots can be filled first.
+- Edit nickname, level, nature, ability, moves, held item and notes. The editor opens with the cursor in **Level**. The move list only offers moves that Pokémon can learn according to the official site, and any of the four slots can be filled first. A move marked **⚠ … · check in game** is one the official site contradicts itself about; pick it and a warning under the moves says why.
+- The nature on a Pokémon's card links to that nature's page.
 - **Stats (IVs and EVs)**, optional and folded away until you open it: IVs (0–31) and EVs (0–252 each, 510 in total), with the nature's raised and lowered stats marked. A short plain-words explanation of IVs, EVs and the EV plan sits at the top. If you type more EVs than fit, it says how many fit.
 - **EV plan:** pick a preset spread (e.g. Physical attacker: 252 Attack / 252 Speed / 4 HP) or type your own targets, then press **+1** once for each EV a beaten Pokémon gives (or type the number). Bars show "now / target", also on the Pokémon's card, which has its own quick +1; the app warns when a plan can no longer be finished under the 510 total. **Where to train** lists places whose wild Pokémon mostly give the EVs you still need, with the table to use (e.g. **Fishing · Super Rod**) and about how many battles it takes. Places whose numbers are only approximate come last, marked **≈**.
-- **Party type check:** weaknesses your party shares, and which types your moves cover.
+- **Party type check:** your biggest risk in one sentence (e.g. "Ground is your biggest risk: 4 of 6 are weak to it"), then what would help from what you already have: bench Pokémon and Pokémon you've caught that resist it, and your moves that hit that type hard. It also lists the types your moves don't cover, with level-up moves that would (and whether a Move Reminder can teach them now), and how your party matches the next gym. The full counts are under **Details**.
 
 **Pokédex**
 - Pokémon, moves, abilities, items, places and NPCs, with search and filters (type, region, caught or not, and more). Each Pokédex number has one row; other forms (Pikachu's caps, Rotom's forms, Megas) open under **▸ N more forms**.
 - Every entry links to related entries. A Pokémon's page starts with its **evolution strip**: the whole family as pictures, with the condition on each arrow, regional lines (Alolan) on a row of their own and Megas and other forms in a row below; click any of them to open it. Then where to find it and its moves. An item's page shows where to buy or find it.
 - **Where to find** on a Pokémon's page has two lists: **Catch in the wild** (place, how, rarity, chance and when) and **Rewards, gifts and trades** (for example "Reward for beating the Kanto Elite Four" or "Hidden item: Helix Fossil"). Long lists keep your current region open and fold the others.
-- The **Tutor** moves tab names each tutor and where they are; a move's own page adds what each tutor charges. Prices are written as in the game, e.g. **₽5,000**; **Gold** is a separate currency.
+- A Pokémon's page shows its **catch rate** from the official site (higher is easier; 255 is the easiest). The app doesn't work out your chance: that depends on the ball, HP, status and levels, and the official page has a calculator for it.
+- The **Tutor** moves tab names each tutor, where they are and what they charge (e.g. **64 BP**, **10× Red Shard**). Prices are written as in the game, e.g. **₽5,000**; **Gold** is a separate currency.
+- **Natures:** all 25, with the stat each raises and lowers (by 10%, from the official natures page) and the berry flavours it likes and dislikes. Filter by what it raises or lowers; each nature's page lists your Pokémon that have it.
+- **NPCs:** the **Find a service** buttons at the top list, say, every Move Reminder, your region first.
 - **Type matchups:** pick one or two types to see what hits them hard.
 
 **Goals & notes**
 - A simple goal checklist. You can also add a "catch" goal from any Pokémon's page.
 - A free notes area.
 
-**Search anywhere:** the search box at the top finds any Pokémon, place, item, move or NPC. Press **Ctrl+K** to jump to it.
+**Search anywhere:** the search box at the top finds any Pokémon, place, item, move, NPC or nature ("adamant"). Press **Ctrl+K** to jump to it.
 
 **Zoom:** Ctrl + plus, Ctrl + minus, or Ctrl + 0 to reset.
 
@@ -139,7 +152,7 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 
 - Rates, levels and locations are as listed on the official site. If the game differs, **the game is right**. Please tell us when you notice a difference.
 - A small **†** next to a Pokémon on a place's list means the official site lists it on the Pokémon's own page but not on that place's page. The site disagrees with itself there, so treat it as "check in game".
-- Some TM/HM rows are marked **verify** because the official site lists a different move for that machine number than it does everywhere else.
+- Some TM/HM rows are marked **verify** (and **⚠ … · check in game** in the Team editor) because the official site lists a different move for that machine number than it does everywhere else.
 - The **Johto** badge order is not published by the official site, so Johto leaders are listed from lowest to highest team level. That is not a confirmed order.
 
 ## Profiles (playthroughs)
@@ -230,10 +243,12 @@ That removes your profiles, backups, logs and picture cache. Nothing is stored a
 - **Game data is a snapshot** from the official website (the date is in **Settings → About**). Anything changed in PokéOne since then won't be reflected until a later beta.
 - **The official site is incomplete or inconsistent in places:**
   - Some Pokémon are listed on their own page but not on a place's page (marked †).
-  - A few TM/HM entries conflict (marked "verify").
+  - A few TM/HM entries conflict (marked "verify", or ⚠ in the Team editor).
   - The Johto badge order isn't published.
   - Some "where to find" details, such as the rarity of Elite Four rewards, aren't available.
-- **No catch rates.** They aren't shown because the data we have for them is not reliable yet.
+- **Matchups are by type only.** The party check, **Your party** boxes and "best match on paper" use the official type chart and the moves listed. Levels, stats, items and abilities (except Levitate) aren't counted, and TMs aren't suggested yet.
+- **Boss timing is only what the official Boss Guides say.** For about half the bosses they don't say when you can fight again; the app says so rather than guessing.
+- **Catch rates, not catch chances.** The app shows the official catch rate but doesn't calculate your chance of catching.
 - **Where to train doesn't know which places you can reach yet.** It may suggest a late-game place or one that needs an HM or a rod you don't have. Water and fishing spots say what they need. In the Safari Zone, battles are normal but have a step limit and only Safari Balls; that EVs are given there is assumed, not confirmed.
 - **Starter help covers Kanto and Johto.** Unova can't be a starting region.
 - **No story walkthrough or quest tracking.** The official site doesn't publish a step-by-step story guide we could check against, so the app doesn't guess one. Use Goals for your own objectives.
@@ -285,6 +300,6 @@ Beyond bugs, we'd especially like to hear:
 
 ## Version information
 
-- **Application:** PokeOne Companion **0.1.5-beta**
+- **Application:** PokeOne Companion **0.1.6-beta**
 - **Platform:** Windows 10/11, 64-bit (portable zip)
 - **Game data:** from the official PokéOne website. The exact data date is shown in **Settings → About**.

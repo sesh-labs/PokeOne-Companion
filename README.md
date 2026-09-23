@@ -9,20 +9,20 @@ A free, offline companion app to keep open while you play **PokéOne**. It shows
 
 **First, sign in to GitHub** with the account you were invited with, and accept the invitation (from the invitation email, or at [github.com/sesh-labs/PokeOne-Companion/invitations](https://github.com/sesh-labs/PokeOne-Companion/invitations)). This page and its downloads are private, so they only work while you're signed in.
 
-**[⬇ Download version 0.1.5-beta](https://github.com/sesh-labs/PokeOne-Companion/releases/tag/v0.1.5-beta)**
+**[⬇ Download version 0.1.6-beta](https://github.com/sesh-labs/PokeOne-Companion/releases/tag/v0.1.6-beta)**
 
-On that page, under **Assets** (click the word to open the list if the files aren't showing), click **`PokeOne-Companion-0.1.5-beta-win-x64.zip`** (about 160 MB).
+On that page, under **Assets** (click the word to open the list if the files aren't showing), click **`PokeOne-Companion-0.1.6-beta-win-x64.zip`** (about 160 MB).
 
 **Requirements:** Windows 10 or 11, 64-bit, and about 550 MB of free space. Nothing else to install.
 
-Checksum (SHA-256), if you want to check the download: `76c946b048eb87cac5445721c52af24c31347fd2916e555619e6c3991f793dc3` (also in `SHA256SUMS.txt` on the release page).
+Checksum (SHA-256), if you want to check the download: `d860fa899ed5b6073cfa5bacf61d100c945f523acbd87f656fcbda14996561fc` (also in `SHA256SUMS.txt` on the release page).
 
 Older versions: [all releases](https://github.com/sesh-labs/PokeOne-Companion/releases).
 
 ## Install and run
 
 1. Right-click the downloaded zip and choose **Extract All…**. Pick a folder you'll remember, for example `Documents\PokeOne Companion`.
-2. Open the extracted folder `PokeOne-Companion-0.1.5-beta-win-x64` and double-click **`PokeOne Companion.exe`**.
+2. Open the extracted folder `PokeOne-Companion-0.1.6-beta-win-x64` and double-click **`PokeOne Companion.exe`**.
 3. The first time, Windows may say *"Windows protected your PC"*. This beta isn't digitally signed yet. Click **More info → Run anyway**.
 4. Choose **I'm new to PokéOne** or **I'm already playing**, and follow the short setup. New players start in Pallet Town (Kanto) or New Bark Town (Johto), where the app shows the three starters.
 
