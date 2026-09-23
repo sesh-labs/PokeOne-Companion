@@ -13,7 +13,7 @@ On that page, under **Assets**, click **`PokeOne-Companion-0.1.5-beta-win-x64.zi
 
 **Requirements:** Windows 10 or 11, 64-bit, and about 550 MB of free space. Nothing else to install.
 
-Checksum (SHA-256), if you want to check the download: `d3453b98abc642352a9f69b1a08053fadf0e3e8e1875286bcd9cfffb73db69d8` (also in `SHA256SUMS.txt` on the release page).
+Checksum (SHA-256), if you want to check the download: `e2d5935877b586f900a430cff58bb9cbe83c47dc8358dd6b1903925898d6e8a7` (also in `SHA256SUMS.txt` on the release page).
 
 Older versions: [all releases](https://github.com/sesh-labs/PokeOne-Companion/releases).
 
