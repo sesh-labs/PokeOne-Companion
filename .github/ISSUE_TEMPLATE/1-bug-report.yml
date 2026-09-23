@@ -24,7 +24,7 @@ body:
     id: actual
     attributes:
       label: What actually happened?
-      description: If there was an error message, copy it here. You can also paste screenshots (Windows + Shift + S takes one).
+      description: If there was an error message, copy it here. You can also paste screenshots (Windows + Shift + S takes one). Crop them to the app window, because taskbars, other windows and file paths can show your name.
     validations:
       required: true
   - type: dropdown
@@ -38,7 +38,7 @@ body:
     id: diagnostics
     attributes:
       label: Diagnostic information
-      description: "In the app: Settings → Feedback & bug reports → Copy diagnostic information, then paste here (Ctrl + V)."
+      description: "In the app: Settings → Feedback & bug reports → Copy diagnostic information, then paste here (Ctrl + V). If the app won't open at all, write \"app won't open\" and your Windows version (10 or 11)."
       render: text
     validations:
       required: true
