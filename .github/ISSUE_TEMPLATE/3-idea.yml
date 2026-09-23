@@ -1,0 +1,21 @@
+name: Idea or suggestion
+description: Something that would make the companion more useful while you play.
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's your idea?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: When would it help you while playing?
+      placeholder: "When I arrive in a new town, I want to see…"
+  - type: dropdown
+    id: importance
+    attributes:
+      label: How much would it matter to you?
+      options: ["Nice to have", "I'd use it often", "I'd stop using the app without it"]
