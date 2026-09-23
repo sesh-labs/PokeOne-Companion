@@ -1,6 +1,6 @@
 # PokeOne Companion — Beta Tester Guide
 
-**Version 0.1.6-beta** · Windows 10 and 11 (64-bit)
+**Version 0.1.7-beta** · Windows 10 and 11 (64-bit)
 
 Thank you for testing PokeOne Companion. This guide explains what the app does, how to install it, and how to report what you find. You don't need any technical knowledge.
 
@@ -36,7 +36,7 @@ Your progress is saved carefully, but please keep a backup file (see [Exporting 
 
 ## Installation
 
-1. Download `PokeOne-Companion-0.1.6-beta-win-x64.zip`.
+1. Download `PokeOne-Companion-0.1.7-beta-win-x64.zip`.
 2. Right-click the zip file and choose **Extract All…**. Pick a folder you'll remember, for example `Documents\PokeOne Companion`.
    - Please extract it. Running the program from inside the zip without extracting will not work properly.
 3. That's it. There is no installer. The extracted folder *is* the app.
@@ -45,7 +45,7 @@ To remove the app later, delete that folder. Your saved progress is kept separat
 
 ## Launching the application
 
-1. Open the extracted folder `PokeOne-Companion-0.1.6-beta-win-x64`.
+1. Open the extracted folder `PokeOne-Companion-0.1.7-beta-win-x64`.
 2. Double-click **`PokeOne Companion.exe`**.
 3. **The first time only**, Windows may show a blue box saying *"Windows protected your PC"*. This happens because this beta is not digitally signed yet. It is not a sign of a problem with your computer. Click **More info**, then **Run anyway**.
 
@@ -106,27 +106,30 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - **Items here** (including berry trees) and **People here** (tutors, vendors, trainers and more), grouped by role, each role with a line saying what it does (e.g. Move Deleter: "Makes a Pokémon forget a move, even an HM move."). If the official site lists nothing for a place, the box says so instead of disappearing.
 - **Find a service** in the side panel opens the Pokédex's NPC list with a button for each service (Move Reminder, Egg Move Tutor, Move Deleter, PvP shop and more), your current region's NPCs first.
 - A side panel with your goals, region progress and the next badge, your party, and tips from the official FAQ. Endgame tips wait under "more tips" until you've beaten the region's Elite Four.
-- **Change location** is at the top. Recently visited places appear as quick buttons.
+- **Change location** is at the top: the cursor goes straight into its search box, places in your current region come first (others show their region), and Esc closes it. Moving to another region says "You're now in Kanto". Recently visited places appear as quick buttons.
 
 **Progress**
-- Badges for Kanto, Johto and Unova, with each leader's team. Click **Mark badge earned** on a leader's card when you win the badge. Johto's badge order isn't given on the official site, so its cards carry no numbers. For some Unova leaders the site also lists a much stronger team; it's folded under **A stronger team is also listed**.
+- Badges for Kanto, Johto and Unova, with each leader's team. Click **Mark badge earned** on a leader's card when you win the badge. Johto's badges are numbered 1 Falkner to 8 Claire, the usual order (the official site gives none; the game lets you take some out of order). Un-marking a badge by mistake? The message that appears has **Undo**. For some Unova leaders the site also lists a much stronger team; it's folded under **A stronger team is also listed**.
 - Elite Four for each region.
 - Your **trainer level in each region** (PokéOne keeps a separate one per region).
 - The requirements for reaching Unova, and which of them you already meet. The level requirement uses your Kanto or Johto level, whichever is higher.
-- On every gym you haven't earned, a folded **Your party** box: how many of the leader's Pokémon your moves hit super-effectively, how many of yours are at risk, and the best match on paper. Open it to see each of their Pokémon: who of yours hits it hard (and with which move), and who it hits hard.
+- On every gym you haven't earned, a folded **Your party** box: their strongest level next to yours, how many of the leader's Pokémon your moves hit super-effectively, how many of yours are at risk, and the best match on paper (or "under-levelled by N" when their strongest is 10 or more levels above yours). Open it to see each of their Pokémon: who of yours hits it hard (and with which move), and who it hits hard.
 
 **Bosses**
+- Each boss card has a tag: **✓ Can do now**, **✗ Not yet: …** (what's missing, e.g. "the Kanto Elite Four" or "all 8 Johto badges (you have 3)"), or **? Check in game: …** (what the app can't see, such as quests, items or the story). The tags check only your badges, Elite Four and trainer levels. Bosses you can do now come first, then "check in game", then "not yet", each from the lowest level up. Ho-oh and Lugia appear on both the Kanto and Johto tabs, marked "(also in …)".
 - All 26 boss battles, by region: requirement, place, how to start the quest, the teams and their levels (bosses with **Normal**, **Hard** and **Champion** modes show a level for each), and **Your party** against each team.
 - **When:** how often, or on which days, a boss can be fought, where the official Boss Guides say so (e.g. Ho-oh at Bell Tower: once per day, again after the reset; Darkrai's dream changes by weekday; N only on Fridays). Where they don't, it says "Not listed on the official site yet. Check in game."
 - A team listing more than six Pokémon is a list the boss picks from; the page says so.
+- Where the official site lists one Pokémon once per moveset, the card says so: Ho-oh at Bell Tower, Lugia at Whirl Island and Ash's Pikachu are **one Pokémon with one of 3 movesets**. For the Hoenn trio's variations and Volcarona, nothing official says whether you meet one or all, so the card says to check in game.
+- If your party has two of the same Pokémon, the boss card says so: the official rule doesn't allow it against bosses.
 
 **Team**
 - Your **party** (up to six) and a **bench**: Pokémon you're keeping an eye on but not carrying right now. When your party is full, new Pokémon go to the bench.
-- Edit nickname, level, nature, ability, moves, held item and notes. The editor opens with the cursor in **Level**. The move list only offers moves that Pokémon can learn according to the official site, and any of the four slots can be filled first. A move marked **⚠ … · check in game** is one the official site contradicts itself about; pick it and a warning under the moves says why.
+- Edit nickname, level, nature, ability, moves, held item and notes. The editor opens with the cursor in **Level**. Type a move's name in any of the four move boxes, or click a box to see the whole list (level-up moves first, then TM/HM, tutor and egg moves); it only offers moves that Pokémon can learn according to the official site. A move marked **⚠ … · check in game** is one the official site contradicts itself about; pick it and a warning under the moves says why. A Team card with no moves has an **Add moves** link: the gym and boss advice needs moves to see who hits hard.
 - The nature on a Pokémon's card links to that nature's page.
 - **Stats (IVs and EVs)**, optional and folded away until you open it: IVs (0–31) and EVs (0–252 each, 510 in total), with the nature's raised and lowered stats marked. A short plain-words explanation of IVs, EVs and the EV plan sits at the top. If you type more EVs than fit, it says how many fit.
-- **EV plan:** pick a preset spread (e.g. Physical attacker: 252 Attack / 252 Speed / 4 HP) or type your own targets, then press **+1** once for each EV a beaten Pokémon gives (or type the number). Bars show "now / target", also on the Pokémon's card, which has its own quick +1; the app warns when a plan can no longer be finished under the 510 total. **Where to train** lists places whose wild Pokémon mostly give the EVs you still need, with the table to use (e.g. **Fishing · Super Rod**) and about how many battles it takes. Places whose numbers are only approximate come last, marked **≈**.
-- **Party type check:** your biggest risk in one sentence (e.g. "Ground is your biggest risk: 4 of 6 are weak to it"), then what would help from what you already have: bench Pokémon and Pokémon you've caught that resist it, and your moves that hit that type hard. It also lists the types your moves don't cover, with level-up moves that would (and whether a Move Reminder can teach them now), and how your party matches the next gym. The full counts are under **Details**.
+- **EV plan:** pick a preset spread (e.g. Physical attacker: 252 Attack / 252 Speed / 4 HP) or type your own targets, then press **+1** once for each EV a beaten Pokémon gives (hold **+1** or **−1** down to count quickly, or type the number). Bars show "now / target", also on the Pokémon's card, which has its own quick +1; the app warns when a plan can no longer be finished under the 510 total. **Where to train** lists places whose wild Pokémon mostly give the EVs you still need, with the table to use (e.g. **Fishing · Super Rod**) and about how many battles it takes. Places whose numbers are only approximate come last, marked **≈**.
+- **Party type check:** your biggest risk in one sentence (e.g. "Ground is your biggest risk: 4 of 6 are weak to it"), then what would help from what you already have: party and bench Pokémon and Pokémon you've caught that resist it, and your moves that hit that type hard. The **?** beside "biggest risk" explains why one type can rank above another with more weak Pokémon (resisting and immune ones count against it). A move kept on a Pokémon that can't learn it by the official list still counts, marked "(check in game)". It also lists the types your moves don't cover, with level-up moves that would (and whether a Move Reminder can teach them now), and how your party matches the next gym. The full counts are under **Details**.
 
 **Pokédex**
 - Pokémon, moves, abilities, items, places and NPCs, with search and filters (type, region, caught or not, and more). Each Pokédex number has one row; other forms (Pikachu's caps, Rotom's forms, Megas) open under **▸ N more forms**.
@@ -153,7 +156,7 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - Rates, levels and locations are as listed on the official site. If the game differs, **the game is right**. Please tell us when you notice a difference.
 - A small **†** next to a Pokémon on a place's list means the official site lists it on the Pokémon's own page but not on that place's page. The site disagrees with itself there, so treat it as "check in game".
 - Some TM/HM rows are marked **verify** (and **⚠ … · check in game** in the Team editor) because the official site lists a different move for that machine number than it does everywhere else.
-- The **Johto** badge order is not published by the official site, so Johto leaders are listed from lowest to highest team level. That is not a confirmed order.
+- The **Johto** badge order is not published by the official site. The numbers 1–8 are the usual order, confirmed by a player; the game lets you take some gyms out of order.
 
 ## Profiles (playthroughs)
 
@@ -244,9 +247,10 @@ That removes your profiles, backups, logs and picture cache. Nothing is stored a
 - **The official site is incomplete or inconsistent in places:**
   - Some Pokémon are listed on their own page but not on a place's page (marked †).
   - A few TM/HM entries conflict (marked "verify", or ⚠ in the Team editor).
-  - The Johto badge order isn't published.
+  - The Johto badge order isn't published (the app's numbers come from a player).
   - Some "where to find" details, such as the rarity of Elite Four rewards, aren't available.
 - **Matchups are by type only.** The party check, **Your party** boxes and "best match on paper" use the official type chart and the moves listed. Levels, stats, items and abilities (except Levitate) aren't counted, and TMs aren't suggested yet.
+- **Boss tags check only badges, Elite Four and trainer levels.** Quests, items, tickets and story progress are "Check in game": the app can't see them.
 - **Boss timing is only what the official Boss Guides say.** For about half the bosses they don't say when you can fight again; the app says so rather than guessing.
 - **Catch rates, not catch chances.** The app shows the official catch rate but doesn't calculate your chance of catching.
 - **Where to train doesn't know which places you can reach yet.** It may suggest a late-game place or one that needs an HM or a rod you don't have. Water and fishing spots say what they need. In the Safari Zone, battles are normal but have a step limit and only Safari Balls; that EVs are given there is assumed, not confirmed.
@@ -300,6 +304,6 @@ Beyond bugs, we'd especially like to hear:
 
 ## Version information
 
-- **Application:** PokeOne Companion **0.1.6-beta**
+- **Application:** PokeOne Companion **0.1.7-beta**
 - **Platform:** Windows 10/11, 64-bit (portable zip)
 - **Game data:** from the official PokéOne website. The exact data date is shown in **Settings → About**.
