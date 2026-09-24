@@ -1,6 +1,6 @@
 # PokeOne Companion — Beta Tester Guide
 
-**Version 0.1.7-beta** · Windows 10 and 11 (64-bit)
+**Version 0.1.8-beta** · Windows 10 and 11 (64-bit)
 
 Thank you for testing PokeOne Companion. This guide explains what the app does, how to install it, and how to report what you find. You don't need any technical knowledge.
 
@@ -36,7 +36,7 @@ Your progress is saved carefully, but please keep a backup file (see [Exporting 
 
 ## Installation
 
-1. Download `PokeOne-Companion-0.1.7-beta-win-x64.zip`.
+1. Download `PokeOne-Companion-0.1.8-beta-win-x64.zip`.
 2. Right-click the zip file and choose **Extract All…**. Pick a folder you'll remember, for example `Documents\PokeOne Companion`.
    - Please extract it. Running the program from inside the zip without extracting will not work properly.
 3. That's it. There is no installer. The extracted folder *is* the app.
@@ -45,7 +45,7 @@ To remove the app later, delete that folder. Your saved progress is kept separat
 
 ## Launching the application
 
-1. Open the extracted folder `PokeOne-Companion-0.1.7-beta-win-x64`.
+1. Open the extracted folder `PokeOne-Companion-0.1.8-beta-win-x64`.
 2. Double-click **`PokeOne Companion.exe`**.
 3. **The first time only**, Windows may show a blue box saying *"Windows protected your PC"*. This happens because this beta is not digitally signed yet. It is not a sign of a problem with your computer. Click **More info**, then **Run anyway**.
 
@@ -107,6 +107,7 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - **Find a service** in the side panel opens the Pokédex's NPC list with a button for each service (Move Reminder, Egg Move Tutor, Move Deleter, PvP shop and more), your current region's NPCs first.
 - A side panel with your goals, region progress and the next badge, your party, and tips from the official FAQ. Endgame tips wait under "more tips" until you've beaten the region's Elite Four.
 - **Change location** is at the top: the cursor goes straight into its search box, places in your current region come first (others show their region), and Esc closes it. Moving to another region says "You're now in Kanto". Recently visited places appear as quick buttons.
+- Next to it, **◀ Back to …** sets your location back to the last place you set (e.g. "◀ Back to Viridian Forest"). To see a place's own page, search for it.
 
 **Progress**
 - Badges for Kanto, Johto and Unova, with each leader's team. Click **Mark badge earned** on a leader's card when you win the badge. Johto's badges are numbered 1 Falkner to 8 Claire, the usual order (the official site gives none; the game lets you take some out of order). Un-marking a badge by mistake? The message that appears has **Undo**. For some Unova leaders the site also lists a much stronger team; it's folded under **A stronger team is also listed**.
@@ -116,7 +117,8 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - On every gym you haven't earned, a folded **Your party** box: their strongest level next to yours, how many of the leader's Pokémon your moves hit super-effectively, how many of yours are at risk, and the best match on paper (or "under-levelled by N" when their strongest is 10 or more levels above yours). Open it to see each of their Pokémon: who of yours hits it hard (and with which move), and who it hits hard.
 
 **Bosses**
-- Each boss card has a tag: **✓ Can do now**, **✗ Not yet: …** (what's missing, e.g. "the Kanto Elite Four" or "all 8 Johto badges (you have 3)"), or **? Check in game: …** (what the app can't see, such as quests, items or the story). The tags check only your badges, Elite Four and trainer levels. Bosses you can do now come first, then "check in game", then "not yet", each from the lowest level up. Ho-oh and Lugia appear on both the Kanto and Johto tabs, marked "(also in …)".
+- The page is a short list, one line per boss: its place, its tag, "once a day" when its official guide says so, and its level. Click a line to open the boss's full card (or **Open all**). Above the list: the region tabs, a search over bosses, places and Pokémon, a **Sort** (Can I do it?, Level, Name) and filters with counts (**✓ Can do now**, **✗ Not yet**, **? Check in game**, **Once a day**). The companion remembers the region, filter and sort.
+- Each boss has a tag: **✓ Can do now**, **✗ Not yet: …** (what's missing, e.g. "the Kanto Elite Four" or "all 8 Johto badges (you have 3)"), or **? Check in game: …** (what the app can't see, such as quests, items or the story). The tags check only your badges, Elite Four and trainer levels. Bosses you can do now come first, then "check in game", then "not yet", each from the lowest level up. Ho-oh and Lugia appear on both the Kanto and Johto tabs, marked "(also in …)".
 - All 26 boss battles, by region: requirement, place, how to start the quest, the teams and their levels (bosses with **Normal**, **Hard** and **Champion** modes show a level for each), and **Your party** against each team.
 - **When:** how often, or on which days, a boss can be fought, where the official Boss Guides say so (e.g. Ho-oh at Bell Tower: once per day, again after the reset; Darkrai's dream changes by weekday; N only on Fridays). Where they don't, it says "Not listed on the official site yet. Check in game."
 - A team listing more than six Pokémon is a list the boss picks from; the page says so.
@@ -124,12 +126,13 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - If your party has two of the same Pokémon, the boss card says so: the official rule doesn't allow it against bosses.
 
 **Team**
-- Your **party** (up to six) and a **bench**: Pokémon you're keeping an eye on but not carrying right now. When your party is full, new Pokémon go to the bench.
-- Edit nickname, level, nature, ability, moves, held item and notes. The editor opens with the cursor in **Level**. Type a move's name in any of the four move boxes, or click a box to see the whole list (level-up moves first, then TM/HM, tutor and egg moves); it only offers moves that Pokémon can learn according to the official site. A move marked **⚠ … · check in game** is one the official site contradicts itself about; pick it and a warning under the moves says why. A Team card with no moves has an **Add moves** link: the gym and boss advice needs moves to see who hits hard.
+- Your **party** (up to six) and a **bench**: Pokémon you're keeping an eye on but not carrying right now. When your party is full, new Pokémon go to the bench. On a Pokémon's Pokédex page, **Add to party** and **Add to bench** put it straight where you want it.
+- **▲ / ▼** on a card change its level (hold to repeat). When it reaches the level at which it evolves on the official site, the companion asks **Did it evolve?**: "Yes, into Metapod" changes it and keeps its level, moves, nature, stats and notes (the message has **Undo** for 15 seconds, which also takes the new form off your caught list if evolving had ticked it); "No, keep Caterpie" leaves it. Evolutions by stone, trade (also "Lv. 25, Trade", like Haunter) or friendship don't ask: change those in **Edit** or add the new Pokémon. A card with no level shows **Set level**.
+- Edit nickname, level, nature, ability, moves, held item and notes. A Pokémon whose species has only one ability (Gastly: Levitate) gets it filled in when you add it. The editor opens with the cursor in **Level**. Type a move's name in any of the four move boxes, or click a box to see the whole list (level-up moves first, then TM/HM, tutor and egg moves); it only offers moves that Pokémon can learn according to the official site. A move marked **⚠ … · check in game** is one the official site contradicts itself about; pick it and a warning under the moves says why. A Team card with no moves has an **Add moves** link: the gym and boss advice needs moves to see who hits hard.
 - The nature on a Pokémon's card links to that nature's page.
 - **Stats (IVs and EVs)**, optional and folded away until you open it: IVs (0–31) and EVs (0–252 each, 510 in total), with the nature's raised and lowered stats marked. A short plain-words explanation of IVs, EVs and the EV plan sits at the top. If you type more EVs than fit, it says how many fit.
 - **EV plan:** pick a preset spread (e.g. Physical attacker: 252 Attack / 252 Speed / 4 HP) or type your own targets, then press **+1** once for each EV a beaten Pokémon gives (hold **+1** or **−1** down to count quickly, or type the number). Bars show "now / target", also on the Pokémon's card, which has its own quick +1; the app warns when a plan can no longer be finished under the 510 total. **Where to train** lists places whose wild Pokémon mostly give the EVs you still need, with the table to use (e.g. **Fishing · Super Rod**) and about how many battles it takes. Places whose numbers are only approximate come last, marked **≈**.
-- **Party type check:** your biggest risk in one sentence (e.g. "Ground is your biggest risk: 4 of 6 are weak to it"), then what would help from what you already have: party and bench Pokémon and Pokémon you've caught that resist it, and your moves that hit that type hard. The **?** beside "biggest risk" explains why one type can rank above another with more weak Pokémon (resisting and immune ones count against it). A move kept on a Pokémon that can't learn it by the official list still counts, marked "(check in game)". It also lists the types your moves don't cover, with level-up moves that would (and whether a Move Reminder can teach them now), and how your party matches the next gym. The full counts are under **Details**.
+- **Party type check:** four short lines first: what to **watch out for**, **your answer** from what you have, **your moves**, and the **next gym**. **Show the full check** opens the rest (the companion remembers whether it's open): your biggest risk in one sentence (e.g. "Ground is your biggest risk: 4 of 6 are weak to it"), then what would help from what you already have: party and bench Pokémon and Pokémon you've caught that resist it, and your moves that hit that type hard. The **?** beside "biggest risk" explains why one type can rank above another with more weak Pokémon (resisting and immune ones count against it). A move kept on a Pokémon that can't learn it by the official list still counts, marked "(check in game)". It also lists the types your moves don't cover, with level-up moves that would (and whether a Move Reminder can teach them now), and how your party matches the next gym. The full counts are under **Details**.
 
 **Pokédex**
 - Pokémon, moves, abilities, items, places and NPCs, with search and filters (type, region, caught or not, and more). Each Pokédex number has one row; other forms (Pikachu's caps, Rotom's forms, Megas) open under **▸ N more forms**.
@@ -145,7 +148,14 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - A simple goal checklist. You can also add a "catch" goal from any Pokémon's page.
 - A free notes area.
 
-**Search anywhere:** the search box at the top finds any Pokémon, place, item, move, NPC or nature ("adamant"). Press **Ctrl+K** to jump to it.
+**Search anywhere:** the search box at the top finds any Pokémon, place, item, move, NPC or nature ("adamant"). Press **Ctrl+K** to jump to it. **Shift+Enter** on a place sets it as your location straight away. Escape clears the box; a second Escape leaves it.
+
+**Beside the game** (Settings › Beside the game)
+- **Ctrl+Shift+P** shows or hides the companion and **Ctrl+Shift+F** brings it up ready to search, even while the game is in front. You can pick other keys or turn them off.
+- **Keep the companion on top** keeps it over the game window (off at first).
+- **Compact**, at the end of the top bar, makes the window small (520 px wide; the window's edge nearer the screen side stays where it is) to sit beside the game; **Full size** puts it back as it was. It stays compact after a restart.
+- In a narrow window, Current Location shows your badges, next badge and goals in one line at the top.
+- Keys inside the app: **Ctrl+1 … Ctrl+7** for the menu pages, **Ctrl+L** for Change location, **Ctrl+H** for "I'm here now" on a place's page. The full list is in Settings.
 
 **Zoom:** Ctrl + plus, Ctrl + minus, or Ctrl + 0 to reset.
 
@@ -161,7 +171,7 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 ## Profiles (playthroughs)
 
 **Settings → Profiles** lists your profiles.
-- **Add a profile** starts a new playthrough without touching your current one.
+- **Add a profile** starts a new playthrough without touching your current one. Each profile needs its own name (capitals don't make a name different).
 - **Switch** opens another profile. Your current one is saved first.
 - **Rename** or **Delete** the open profile. A deleted profile is not erased: it's moved to the `removed` folder inside your data folder, just in case.
 
@@ -185,11 +195,11 @@ That single file contains the whole profile. You can copy it to a USB stick, clo
 
 **From a backup file**
 - On the welcome screen choose **Restore from a backup**, or go to **Settings → Backups → Restore from a backup file…**, and pick the `.json` file.
-- Restoring always **adds** the profile. It never overwrites the one you have open. If the same profile already exists, the restored copy is added next to it with "(imported)" in its name, and **the app switches to that copy**: check the profile name at the bottom left, and switch back in **Settings → Profiles** if you meant to keep playing in the original.
+- Restoring always **adds** the profile. It never overwrites the one you have open. If the same profile already exists, the restored copy is added next to it with "(imported)" in its name, and **the app switches to that copy** (you stay on Settings): check the profile name at the bottom left, and switch back in **Settings → Profiles** if you meant to keep playing in the original.
 - Files that aren't valid companion backups are refused with an explanation, and nothing changes.
 
 **From an automatic backup**
-- **Settings → Backups** lists recent automatic backups of the open profile. Click **Restore** next to one. The version you're replacing is backed up first, so you can undo it the same way.
+- **Settings → Backups** lists recent automatic backups of the open profile, each as "Data from …" (when that data was saved). Click **Restore** next to one; you stay on Settings. The version you're replacing is backed up first, so you can undo it the same way.
 
 ## Starting over
 
@@ -199,11 +209,11 @@ To get rid of a profile, go to **Settings → Profiles → Delete this profile�
 
 ## Where your data is stored
 
-Your profiles are saved in your Windows user folder:
+Unless you choose another folder, your profiles are saved in your Windows user folder:
 
 `%APPDATA%\PokeOne Companion`
 
-(Usually `C:\Users\<your name>\AppData\Roaming\PokeOne Companion`.) **Settings → Feedback & bug reports → Open data folder** opens it for you. Inside you'll find:
+(Usually `C:\Users\<your name>\AppData\Roaming\PokeOne Companion`.) **Settings → Data folder** shows where your data is and has **Open data folder**. Inside you'll find:
 
 - `profiles`: your profiles;
 - `backups`: automatic backups;
@@ -214,6 +224,22 @@ Your profiles are saved in your Windows user folder:
 
 Deleting the app folder does **not** delete this data. Please don't edit these files by hand while the app is open.
 
+### Choosing another folder
+
+The first Welcome screen says where your data will be saved; **Change** picks another folder. Later, **Settings → Data folder → Move to another folder…** does the same:
+
+1. Choose a folder. An empty folder is used as it is; a folder with other things in it (such as Documents) gets a **PokeOne Companion** folder inside.
+2. The companion copies your profiles, backups and settings, checks every file, and restarts using the new folder. If anything doesn't check out, nothing changes.
+3. The old folder stays as it was, with a `MOVED-TO.txt` saying where the data went, until you choose **Remove the old copy** (it goes to the Recycle Bin) or **Keep it** in Settings.
+
+**Move back to the default folder** returns it to `%APPDATA%`. If the old copy is still there (you chose **Keep it**), it is first set aside in a folder named **Old copy <date>** inside it, never deleted. A small file there, `location.json`, remembers the folder you chose, so keep the `PokeOne Companion` folder in `%APPDATA%` even when your data lives elsewhere.
+
+If the chosen folder isn't there when the companion starts (a USB stick that isn't plugged in), it asks: **Try again**, **Use the default folder this time**, or **Quit**. With **Use the default folder this time**, a bar on every page reminds you that changes are now saved in the default folder, not in your folder (**Try my folder again** restarts and looks again); moving the data is off until then. At the next normal start, if you changed anything in that session, a box names the profiles and where they are. To bring one over, click **Open that folder**, then use **Settings → Backups → Restore from a backup file…** and pick it from that folder's `profiles` folder (it comes in as a copy). The box comes back at each start until you click **Got it**.
+
+**Advanced:** **Keep my data next to the app** puts it in a **PokeOne Companion Data** folder beside the app, for running the companion itself from a USB stick on any computer. To keep only your data on a stick, use **Move to another folder…** instead.
+
+A cloud-synced folder (OneDrive, Dropbox…) works, but don't open the companion on two computers at the same time: they would overwrite each other's changes.
+
 ### Removing everything
 
 To take PokeOne Companion off your computer completely:
@@ -222,6 +248,7 @@ To take PokeOne Companion off your computer completely:
 2. Close the app.
 3. Delete the app folder you extracted.
 4. Press **Windows + R**, type `%APPDATA%`, press Enter, and delete the **PokeOne Companion** folder there.
+5. If you moved your data to another folder (Settings → Data folder), delete that folder too.
 
 That removes your profiles, backups, logs and picture cache. Nothing is stored anywhere else.
 
@@ -256,6 +283,7 @@ That removes your profiles, backups, logs and picture cache. Nothing is stored a
 - **Where to train doesn't know which places you can reach yet.** It may suggest a late-game place or one that needs an HM or a rod you don't have. Water and fishing spots say what they need. In the Safari Zone, battles are normal but have a step limit and only Safari Balls; that EVs are given there is assumed, not confirmed.
 - **Starter help covers Kanto and Johto.** Unova can't be a starting region.
 - **No story walkthrough or quest tracking.** The official site doesn't publish a step-by-step story guide we could check against, so the app doesn't guess one. Use Goals for your own objectives.
+- **The show/hide and search keys can't be set to any key you like**, only picked from a short list. If a game or another program already uses one, Settings says so; pick another.
 - **No automatic updates.** New betas are downloaded manually. Your profiles carry over.
 - **Pictures need the internet** (they load from the official site).
 - **Profile backup files are one profile each.** There's no single "back up everything" button yet (you can copy the whole data folder instead).
@@ -304,6 +332,6 @@ Beyond bugs, we'd especially like to hear:
 
 ## Version information
 
-- **Application:** PokeOne Companion **0.1.7-beta**
+- **Application:** PokeOne Companion **0.1.8-beta**
 - **Platform:** Windows 10/11, 64-bit (portable zip)
 - **Game data:** from the official PokéOne website. The exact data date is shown in **Settings → About**.
