@@ -1,16 +1,16 @@
 name: I know the answer
-description: Answer one of the open questions (things the official site doesn't say or contradicts itself about).
+description: Answer one of the open questions, the things the official site doesn't say.
 title: "[Answer] "
 labels: ["answer"]
 body:
   - type: markdown
     attributes:
-      value: "Thanks for checking in game! In PokéOne, **the game is always right**. Please don't include anything private: other invited testers can see answers."
+      value: "Thanks for checking. The game is always right. Other testers can read this, so leave out anything private."
   - type: input
     id: question
     attributes:
       label: Question id
-      description: Copy it from the Open questions list (the bold code at the start of the line).
+      description: The code at the start of the line in the open questions list.
       placeholder: "e.g. BOSS-WHEN-mewtwo"
     validations:
       required: true
@@ -18,7 +18,7 @@ body:
     id: seen
     attributes:
       label: What did you see in the game?
-      description: Just what you saw. For a place, say which Pokémon you saw, and which you looked for and didn't find.
+      description: Just what you saw. For a place, say which Pokémon you found and which you looked for but didn't.
       placeholder: "Dr. Tapps let me fight Mewtwo again the day after the reset."
     validations:
       required: true
@@ -33,7 +33,7 @@ body:
     id: screenshot
     attributes:
       label: Screenshot (optional)
-      description: Paste one here (Windows + Shift + S takes one). Crop it to the game window, because taskbars, other windows and file paths can show your name. Never show your name or other players' names.
+      description: Paste one here (Windows + Shift + S). Crop it to the game window and hide your name and other players' names.
   - type: input
     id: where
     attributes:

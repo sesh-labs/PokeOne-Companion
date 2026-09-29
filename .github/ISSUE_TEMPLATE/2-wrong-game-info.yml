@@ -1,11 +1,11 @@
 name: Wrong or missing game information
-description: The app shows something different from what PokéOne shows (spawns, levels, items, NPCs, gyms…).
+description: The app shows something different from the game, like a spawn, a level, an item or a gym.
 title: "[Game data] "
 labels: ["game data"]
 body:
   - type: markdown
     attributes:
-      value: "In PokéOne, **the game is always right**. These reports help keep the companion accurate."
+      value: "The game is always right. Thanks for helping the app match it."
   - type: input
     id: where
     attributes:
@@ -23,7 +23,7 @@ body:
     id: game
     attributes:
       label: What the game actually shows
-      description: A screenshot from the game helps a lot.
+      description: A screenshot from the game helps a lot. Crop out names.
     validations:
       required: true
   - type: dropdown
