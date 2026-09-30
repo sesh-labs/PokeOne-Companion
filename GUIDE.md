@@ -1,62 +1,56 @@
 # PokeOne Companion — Beta Tester Guide
 
-**Version 0.2.0-beta** · Windows 10 and 11 (64-bit)
+Version 0.2.1-beta · Windows 10 and 11 (64-bit)
 
-Thank you for testing PokeOne Companion. This guide explains what the app does, how to install it, and how to report what you find. You don't need any technical knowledge.
+Thanks for testing. This guide covers what the app does, how to install it and how to tell us what you find. No technical knowledge needed.
 
 ---
 
 ## What this application is
 
-PokeOne Companion is a program you keep open next to **PokéOne** while you play. It:
+PokeOne Companion is an app you keep open next to PokéOne while you play. It shows the wild Pokémon, items, people and gym where you are, keeps track of your team, badges, dailies and bosses, and checks whether your party is ready for the next fight. It also has a Pokédex you can search, and room for your goals and notes.
 
-- shows **what lives where you are**: wild Pokémon (with time-of-day rates), items, people and the gym in your current town or route;
-- tracks your **badges and Elite Four** progress in Kanto, Johto and Unova;
-- keeps a record of **your team** and checks your party's type weaknesses and move coverage;
-- has a searchable **Pokédex** of Pokémon, moves, abilities, items, places, NPCs and natures, plus a type-matchup tool;
-- ticks off your **dailies, weeklies and boss fights**, with when each comes back;
-- keeps your **goals and notes**;
-- works **offline**, and saves your progress **on your computer**.
+It doesn't connect to the game or read your game files, and it never asks for your PokéOne account. You tell it where you are and what you've done, and it helps from there. It works offline and saves everything on your computer.
 
-It does not connect to the game, read your game files or need your PokéOne account. You tell it where you are and what you've done, and it helps from there.
-
-Game information comes from the official PokéOne website (pokeonecommunity.com). PokeOne Companion is an **unofficial fan-made tool**. It is not affiliated with PokéOne, Nintendo, Game Freak or The Pokémon Company.
+Game information comes from the official PokéOne website (pokeonecommunity.com). The app is an unofficial fan project, not connected to PokéOne, Nintendo, Game Freak or The Pokémon Company.
 
 ## Beta status
 
-This is a **beta**, an early version for testing. Expect rough edges. Some things may be missing, behave oddly, or be wrong. Finding and reporting those is exactly what you're here for, and it's appreciated.
-
-Your progress is saved carefully, but please keep a backup file (see [Exporting / backing up](#exporting--backing-up)) of any profile you care about.
+This is an early test version, so some things will be missing, odd or wrong. Finding those is exactly what you're here for. Your progress is saved carefully, but keep a backup file of any profile you care about (see [Exporting / backing up](#exporting--backing-up)).
 
 ## System requirements
 
-- **Windows 10 or Windows 11, 64-bit.** This is the only platform this beta supports. It has not been built for macOS, Linux or 32-bit Windows.
-- About **550 MB** of free disk space while you still have the download (the zip is about 160 MB; the extracted app about 375 MB).
-- No other software is needed. You don't need to install anything else.
-- An internet connection is **optional**. It is only used to show Pokémon and item pictures, which load from the official PokéOne website. Everything else works offline.
+- Windows 10 or 11, 64-bit. There's no Mac, Linux or 32-bit version.
+- About 550 MB of free space while you still have the download (the zip is about 160 MB, the app about 375 MB).
+- Nothing else to install.
+- Internet is optional. It's only used for the Pokémon and item pictures, which load from the official PokéOne website.
 
 ## Installation
 
-1. Download `PokeOne-Companion-0.2.0-beta-win-x64.zip`.
-2. Right-click the zip file and choose **Extract All…**. Pick a folder you'll remember, for example `Documents\PokeOne Companion`.
-   - Please extract it. Running the program from inside the zip without extracting will not work properly.
-3. That's it. There is no installer. The extracted folder *is* the app.
+1. Download `PokeOne-Companion-0.2.1-beta-win-x64.zip`.
+2. Right-click it, choose **Extract All…**, and pick a folder you'll remember, for example `Documents\PokeOne Companion`. Running it from inside the zip won't work properly.
 
-To remove the app later, delete that folder. Your saved progress is kept separately (see [Where your data is stored](#where-your-data-is-stored)).
+There's no installer: the extracted folder is the app. To remove it later, delete that folder. Your progress is kept somewhere else (see [Where your data is stored](#where-your-data-is-stored)).
 
-## Updating from 0.1.8-beta
+## Updating from an earlier version
 
-1. Save a backup file of any profile you care about first (see [Exporting / backing up](#exporting--backing-up)).
-2. Close the old app and extract the new zip to a **new folder**. Don't extract it over the old one.
-3. Open the new app. Your profiles carry over by themselves. The first time each one opens, it is upgraded for this version (to "profile format 4"), and a copy of the old file is saved first: it's listed under **Settings → Backups** as "before an update (always kept)". A message says what's new.
+1. In the old version, save a backup file (**Settings → Backups → Save a backup file…**). It's your easy way back.
+2. Close the old app and extract the new zip to a new folder, not over the old one.
+3. Open the new app. Your profiles come along by themselves.
 
-0.1.8-beta stays available on the download page.
+The first time each profile opens, 0.2.1 upgrades it (to profile format 5, which makes room for the new 🛠 and ✨ markers) and keeps a copy of the old file first. Settings → Backups lists that copy as "before an update (always kept)". A message says what's new. Profiles from 0.1.8 are upgraded the same way, in one go.
 
-**Going back to 0.1.8-beta:** 0.1.8 can't open a profile that 0.2.0 has upgraded. The easy way back: **before updating**, save a backup file in 0.1.8 (**Settings › Backups › Save a backup file…**); to go back, open 0.1.8 and choose **Restore from a backup file…** with that file. Without one, 0.1.8 says "Your profile couldn't be opened" and lists automatic backups: the one marked "(newest)" won't open, so try the ones under it until one does (the copy from just before the update). Either way, what you did in 0.2.0 isn't in it, but it isn't deleted: 0.1.8 keeps the newer profile in its list as one it can't open (or, if you restored an automatic backup, moves it to the `quarantine` folder in your data folder). Back in 0.2.0 you may then have two profiles, the 0.2.0 one and the restored copy: switch between them in **Settings › Profiles** and delete the one you don't want (a quarantined file comes back with **Settings › Backups › Restore from a backup file…**). A backup file saved in 0.2.0 can't be opened in 0.1.8.
+### Going back to an older version
+
+An older version can't open a profile that a newer one has upgraded. It says so and leaves the profile alone.
+
+To go back, open the older version and choose Settings → Backups → Restore from a backup file…, then pick the backup file you saved before updating. What you did in the newer version isn't in it. A backup file saved in a newer version can't be opened in an older one.
+
+If you didn't save a backup file first (going back to 0.1.8 only): 0.1.8 says "Your profile couldn't be opened" and lists its automatic backups. The one marked "(newest)" won't open, so try the ones under it until one does. Nothing is deleted: 0.1.8 keeps the newer profile in its list as one it can't open, or moves it to the `quarantine` folder in your data folder. Back in the newer version you may then have two profiles; switch between them in Settings → Profiles and delete the one you don't want. A quarantined file comes back with Settings → Backups → Restore from a backup file….
 
 ## Launching the application
 
-1. Open the extracted folder `PokeOne-Companion-0.2.0-beta-win-x64`.
+1. Open the extracted folder `PokeOne-Companion-0.2.1-beta-win-x64`.
 2. Double-click **`PokeOne Companion.exe`**.
 3. **The first time only**, Windows may show a blue box saying *"Windows protected your PC"*. This happens because this beta is not digitally signed yet. It is not a sign of a problem with your computer. Click **More info**, then **Run anyway**.
 
@@ -112,7 +106,7 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - **Wild Pokémon**, in one table per method (grass, surfing, headbutt…), per fishing rod (**Fishing · Old Rod**, **Good Rod**, **Super Rod**) and per area where a place has several (e.g. **Grass · Kanto Safari East**), just like the official site. Choose a time of day to see rates for morning, day, evening or night. Tick the checkbox to mark a Pokémon as caught, and use **Only ones I haven't caught** to see what's still missing. On a profile set up with **I'm new to PokéOne**, the Headbutt, rod, Surf and Rock Smash tables start folded; click one to open it (the companion remembers).
 - Each wild Pokémon shows its **EV yield**, and each method has an **EV training** line worked out from the official rates, e.g. "Speed from 100% of encounters (about 1.2 per battle)". When rates change through the day, pick a time to see it. Where the site gives no rates, it counts the Pokémon listed instead, and says so.
 - Some forms share one encounter slot, although the official site lists each at the full rate (Pumpkaboo's four sizes, Burmy's three cloaks). They're marked **◦** and counted once.
-- A few rows appear only on a Pokémon's own page on the official site, not on the place's page. Each table folds them behind one line, e.g. **▸ 4 more the official site lists only on Pokémon pages (check in game)**; click it to see them under **Also listed †**, without a rate, so the table's rates add up. Mega forms never show as wild.
+- Rewards, prizes, gifts, trades and fossils that the official site names only on a Pokémon's own page are listed under what they are ("Reward for beating Mewtwo", "Prize counter"), like any other row. A wild Pokémon listed only there would be marked †: each table folds such rows behind one line, e.g. **▸ 4 more the official site lists only on Pokémon pages (check in game)**; click it to see them under **Also listed †**, without a rate, so the table's rates add up. Mega forms never show as wild.
 - The **?** next to "N of M caught" explains that Pokémon you add to your team count as caught.
 - Where the official rates in a table can't all be right (they add up to well over or under 100%), the table is tagged **≈ rough numbers** and its numbers start with ≈. The **Key** under the tables gives the total. Headbutt and Rock Smash tables normally add up to less than 100%; there the numbers are shares of the Pokémon you battle, and a note says so.
 - **Items here** (including berry trees) and **People here** (tutors, vendors, trainers and more), grouped by role, each role with a line saying what it does (e.g. Move Deleter: "Makes a Pokémon forget a move, even an HM move."). If the official site lists nothing for a place, the box says so instead of disappearing.
@@ -124,30 +118,33 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - Under the place's name, **On the official list: ◀ Cherrygrove City · Dark Cave ▶** are the places before and after this one in the official site's own page order, inside your region. One click (or **Alt+↑** / **Alt+↓**) sets your location there. That order follows the journey early on but not always (it includes event maps), so it never says "next".
 
 **Suggestions from your save (the Advisor)**
-- **Before <leader>:** what to watch out for in the next gym, from the leader's real moves ("Onix (Lv 14) knows Rock Tomb: 2× on Charmander."), who to lead with, then fixes nearest first: a move your Pokémon learns within 3 levels or can relearn, a TM or HM in your Bag (given to the Pokémon of its own type first), a bench or caught Pokémon, a wild one where you are or nearby. It sits in the gym card in that town, else in the side panel, and on the next gym's card on Progress. When your party's average level is 3 or more above their strongest, only the warnings and the lead line show.
+- **Next: <leader>:** what to watch out for in the next gym, from the leader's real moves ("Onix (Lv 14) knows Rock Tomb: 2× on Charmander."), who to lead with, then fixes nearest first: a move your Pokémon learns within 3 levels or can relearn, a TM or HM in your Bag (given to the Pokémon of its own type first), a bench or caught Pokémon, a wild one where you are or nearby. It sits in the gym card in that town, else at the top of the side panel, and on the next gym's card on Progress. When your party's average level is 3 or more above their strongest, only the warnings and the lead line show.
 - Each **Before** box starts with a verdict, from the type chart only: **✓ Ready on paper** (you hit their Pokémon hard, few of yours are at risk, and you're not behind), **◐ Nearly**, **⚠ Not ready on paper**, or **✓ Well ahead** when your party averages 10 or more levels above their strongest. When you're 3–9 levels behind, **⚠ Train about N levels first** comes first instead.
-- With all 8 badges of a region, **Before the <Region> Elite Four** takes the next badge's place in the side panel (and sits on the Elite Four's own page): how your levels compare with their strongest team, a verdict counting the members' teams you hit hard, the worst threats across the five, and fixes. After you've beaten them, it uses their daily rematch teams.
+- With all 8 badges of a region, **Next: the <Region> Elite Four** takes the next badge's place in the side panel (and sits on the Elite Four's own page): how your levels compare with their strongest team, a verdict counting the members' teams you hit hard, the worst threats across the five, and fixes. After you've beaten them, it uses their daily rematch teams.
 - Next to the next badge, level words: "Lv 14, your strongest Lv 9, behind by 5" ("behind" and "on track" go by your strongest Pokémon; "ahead" by your party's average, 3 or more over, so one high-level Pokémon doesn't make a weak party look ahead).
 - **Good to know** starts with lines about this place and your save: Pokémon here on foot you haven't caught (Surf, rod, Headbutt, Rock Smash and † rows left out), a wild Pokémon here that resists your biggest risk, your EV plan here, an evolution item sold or found here (or already in your Bag, and what it costs against the ₽ you have), a Move Reminder here, a new trainer's shop, where to find a Pokémon one of your goals asks for, and a daily or weekly here you haven't done yet (e.g. "Daily here: Cerulean Valley, not done today", with **✓ Done** to tick it).
-- **Last time (9 days ago): …** at the top of Current Location when you come back after 6 hours or more.
+- **Last time (9 days ago): …** at the top of Current Location when you come back after 6 hours or more: where you were, your badges and your first open goal as the save held them when you opened it (what you change during this visit doesn't alter it).
 - Every line has **Why?** (the facts behind it and the official source) and **×** to hide it (the message has **Undo**; several hidden quickly come back together). A hidden line stays hidden, also after a restart, until the facts behind it change; **Settings › Show hidden suggestions again** brings them all back. Type matchups only: no damage or win chances.
 
 **Team**
-- Your **party** (up to six) and a **bench**: Pokémon you're keeping an eye on but not carrying right now. When your party is full, new Pokémon go to the bench. On a Pokémon's Pokédex page, **Add to party** and **Add to bench** put it straight where you want it.
+- Your **party** (up to six) and a **bench**: Pokémon you're keeping an eye on but not carrying right now. When your party is full, new Pokémon go to the bench. Adding a Pokémon (**Add a Pokémon…** here, or **Add to party** / **Add to bench** on its Pokédex page) opens its Edit window for the level, moves and the rest. While it's new, **Done** adds it; **Cancel (don't add)**, the **×** or Escape take the add back (the caught mark and goal tick too). Either way the message after it has **Undo**.
+- **Sort by** on the bench: order added, level, name or Pokédex number (favourites stay first). Remembered.
+- **The trainer level cap:** a Pokémon above your trainer level for the region fights at that level there (as players report; the official site doesn't say). When your trainer level caps a party Pokémon where you are, its card says so ("fights at Lv 32 in Johto") and the party lists show "Lv 50 → 32". All the advice uses the level it fights at, and when the cap is why you're behind, the line says to raise your trainer level (bounties, bosses and daily quests, as the official FAQ says) instead of "train". Unova isn't confirmed yet, so there levels are used as you recorded them. With no trainer level entered for a region, nothing is capped, and each box says so once.
 - **▲ / ▼** on a card change its level (hold to repeat). When it reaches the level at which it evolves on the official site, the companion asks **Did it evolve?**: "Yes, into Metapod" changes it and keeps its level, moves, nature, stats and notes (the message has **Undo** for 15 seconds, which also takes the new form off your caught list if evolving had ticked it); "No, keep Caterpie" leaves it. Raising the level in **Edit** asks too. A card with no level shows **Set level**.
-- **Evolve…** on the card of a Pokémon that evolves another way (a stone, a trade, friendship, a held item): pick the evolution, with the official way beside it and "(in your Bag)" when you have the item. A stone from your Bag is taken out; **Undo** puts it and the old form back.
-- **☆** on a card makes that Pokémon a favourite (this one Pokémon, not the species). **★ Favourites** shows only them (remembered), favourites come first on the bench, and the Pokémon's page says "★ Your favourite".
+- **Evolve…** on the card of a Pokémon that evolves another way (a stone, a trade, friendship, a held item): pick the evolution, with the official way beside it and "(in your Bag)" when you have the item. A stone from your Bag is taken out; **Undo** puts it and the old form back. With no stone in your Bag, the message says nothing was taken out.
+- **☆** on a card makes that Pokémon a favourite (this one Pokémon, not the species). **★ Favourites** shows only them (remembered), favourites come first on the bench, and the Pokémon's page says "★ Your favourite". In the advice a favourite only breaks ties: when two leads or two fixes are equally good, the favourite's comes first (its Why? says so); it never changes a verdict or a risk.
 - **Copy team** puts your party on the clipboard as text, one line per Pokémon with its moves below, ready to paste in a chat.
 - A card with no level says why a level helps: the gym and boss checks compare levels.
-- Edit nickname, level, ability, nature, moves, held item and notes. A Pokémon whose species has only one ability (Gastly: Levitate) gets it filled in when you add it. The editor opens with the cursor in **Level**. Type a move's name in any of the four move boxes, or click a box to see the whole list (level-up moves first, then TM/HM, tutor and egg moves); it only offers moves that Pokémon can learn according to the official site. A move marked **⚠ … · check in game** is one the official site contradicts itself about; pick it and a warning under the moves says why. A Team card with no moves has an **Add moves** link: the gym and boss advice needs moves to see who hits hard.
+- Edit nickname, level, ability, nature, moves, held item and notes. A Pokémon whose species has only one ability (Gastly: Levitate) gets it filled in when you add it. The editor opens with the cursor in **Level**. Type a move's name in any of the four move boxes (spaces and hyphens don't matter: "Dragonbreath" finds Dragon Breath), or click a box to see the whole list (level-up moves first, then TM/HM, tutor and egg moves); it only offers moves that Pokémon can learn according to the official site. A move marked **⚠ … · check in game** is one the official site contradicts itself about; pick it and a warning under the moves says why. A Team card with no moves has an **Add moves** link: the gym and boss advice needs moves to see who hits hard.
 - The nature on a Pokémon's card links to that nature's page.
 - **Stats (IVs and EVs)**, optional and folded away until you open it: IVs (0–31) and EVs (0–252 each, 510 in total), with the nature's raised and lowered stats marked. A short plain-words explanation of IVs, EVs and the EV plan sits at the top. If you type more EVs than fit, it says how many fit.
-- **EV plan:** pick a preset spread (e.g. Physical attacker: 252 Attack / 252 Speed / 4 HP) or type your own targets, then press **+1** once for each EV a beaten Pokémon gives (hold **+1** or **−1** down to count quickly, or type the number). Bars show "now / target", also on the Pokémon's card, which has its own quick +1; the app warns when a plan can no longer be finished under the 510 total. **Where to train** lists places whose wild Pokémon mostly give the EVs you still need, with the table to use (e.g. **Fishing · Super Rod**) and about how many battles it takes. Places whose numbers are only approximate come last, marked **≈**. A tag says what battling there needs, read from your Bag's HMs and rods (and, for Headbutt, your team's moves): places you can reach come first ("uses Surf"), the others say e.g. "needs Surf (not in your Bag)". With no HMs or rods in the Bag, a hint asks you to add them. Places the official site lists without rates are on their own line; **On foot:** names a place that needs none of those when the top three all need something; "either way" means the official site lists several methods together.
+- **EV plan:** pick a preset spread (e.g. Physical attacker: 252 Attack / 252 Speed / 4 HP) or type your own targets, then press **+1** once for each EV a beaten Pokémon gives (hold **+1** or **−1** down to count quickly, or type the number). Bars show "now / target", also on the Pokémon's card, which has its own quick +1; the app warns when a plan can no longer be finished under the 510 total. In a party, EVs count double or triple (official Discord FAQ): pick **×2** or **×3** beside the plan (on the card or in the Edit window, one choice for the whole app, remembered) and the buttons become **+2**/**+3**, while Where to train, the EV line on Current Location and its tips count per battle with it. Set it back to **×1 alone** when you play solo. **Where to train** lists places whose wild Pokémon mostly give the EVs you still need, with the table to use (e.g. **Fishing · Super Rod**) and about how many battles it takes. Places whose numbers are only approximate come last, marked **≈**. A tag says what battling there needs, read from your Bag's HMs and rods (and, for Headbutt, your team's moves): places you can reach come first ("uses Surf"), the others say e.g. "needs Surf (not in your Bag)". With no HMs or rods in the Bag, a hint asks you to add them. Places the official site lists without rates are on their own line; **On foot:** names a place that needs none of those when the top three all need something; "either way" means the official site lists several methods together.
 - **Party type check:** four short lines first: what to **watch out for**, **your answer** from what you have, **your moves**, and the **next gym**. **Show the full check** opens the rest (the companion remembers whether it's open): your biggest risk in one sentence (e.g. "Ground is your biggest risk: 4 of 6 are weak to it"), then what would help from what you already have: party and bench Pokémon and Pokémon you've caught that resist it, and your moves that hit that type hard (the same Pokémon with the same move once: "Water Gun (Squirtle ×3)"). The **?** beside "biggest risk" explains why one type can rank above another with more weak Pokémon (resisting and immune ones count against it). A move kept on a Pokémon that can't learn it by the official list still counts, marked "(check in game)". It also lists the types your moves don't cover, with level-up moves that would (and whether a Move Reminder can teach them now), and how your party matches the next gym. The full counts are under **Details**.
 
 **Bag**
 - Two pockets: **TMs & HMs** and **Items**. Add one by typing its name, number or a move type ("tm26", "earthquake", "ground", "fire stone"); **−** and **+** change the count (up to 999), or click the count to type it; **×** takes it out (with **Undo**). An HM is added once and is **never used up**. Your **₽** and **Gold** go at the top (digits only).
-- Each entry links to its Pokédex page and says where to get it in one line ("Get it: 2 shops · found in 1 place").
+- **Quick update…** is for many at once, such as after a long session: every TM in number order (the HMs as tick boxes), or on the Items tab one pocket at a time (it opens on the pocket where you have the most). Type the counts your bag in the game shows; **Tab** or **Enter** goes to the next box, an empty box means none, and a filter finds a number, name or type (on Items, in every pocket). Changed boxes are shaded. **Review** lists what's new, other counts and what's taken out before anything is saved; after **Save**, one **Undo** takes back the whole batch. Leaving the Bag page keeps the boxes you haven't saved yet, until you close the app.
+- Each entry links to its Pokédex page and says where to get it in one line ("Get it: 2 shops · found in 1 place"). Most TMs are also in the reward pool that 17 bosses share ("in 17 bosses' TM pool (67 TMs)"): each of those bosses can give one of them.
 - **Teach to…** lists the team Pokémon that can learn that TM or HM (party first). The move goes into a free slot, or you pick which move it replaces. A TM is used up; the message has **Undo** (15 seconds), which takes back that move and gives back one TM.
 - TMs and HMs you have also show in the Team editor's move lists (**in your Bag ×2**), on a Pokémon's page (**TMs and HMs in your Bag it can learn**), on each item's page (**In your Bag**, or **Add to Bag**), and in the advice before a gym ("Teach Quilava TM31 Brick Break from your Bag").
 - **Worth selling** lists the items in your Bag that an Item Maniac buys: the best buyer and where they are ("Sell to Niomi (Vermilion City); also …, same price"), the price and the total. Items your team still needs to evolve are **Kept** and left out of the total (one stone per Pokémon; a second one is a spare). A fold lists everything the Item Maniacs buy.
@@ -161,33 +158,38 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - A step a daily needs (a password, a quest before it) can be ticked on its row: it's the same tick as on Bosses.
 - A timed one shows **● On now** while it's open, e.g. Lapras in Union Cave from Friday 10:00 to Saturday 10:00 UTC, and otherwise when it next opens.
 - **Bosses** at the bottom lists the bosses you logged with **I fought it just now**, each with its countdown or "ready again".
-- Your region or **All regions**, **Hide done** and **Hide what I can't do yet** are remembered.
+- Tabs at the top pick the region (**Kanto · Johto · Unova · All regions**), like on Bosses; it opens where you are, and a line says which region you're looking at. **All regions**, **Hide done** and **Hide what I can't do yet** are remembered.
 
 **Progress**
-- The next gym you haven't earned has a **Next up** frame; earned gyms shrink to one line (click ▸ to open one).
+- Every gym is a card with the leader's team; earned ones are green. The next gym you haven't earned has a **Next up** frame with its advice.
 - Badges for Kanto, Johto and Unova, with each leader's team. Click **Mark badge earned** on a leader's card when you win the badge. Johto's badges are numbered 1 Falkner to 8 Claire, the usual order (the official site gives none; the game lets you take some out of order). Un-marking a badge by mistake? The message that appears has **Undo**. For some Unova leaders the site also lists a much stronger team; it's folded under **A stronger team is also listed**.
 - Elite Four for each region: **Mark Elite Four defeated** (un-marking offers **Undo**), with a link to their teams. Their page has your party check under every member's team, as on gyms and bosses. Once marked, the advice uses their stronger **daily rematch** teams instead of the story ones.
 - A **<Region> Pokédex** box: how many of the region's wild Pokémon you've caught ("caught in all of Johto"), **Still to catch** with where to find each one (Surf, rods, time of day and so on), and **By place** with each place's count. The companion remembers which of the two you opened.
-- Your **trainer level in each region** (PokéOne keeps a separate one per region). Its **?** says what the companion uses it for: reaching Unova and boss requirements.
-- Until you've been to Unova or hold a Unova badge, its tab reads **Unova · later**; it opens on what it takes to get there.
+- Your **trainer level in each region** (PokéOne keeps a separate one per region). Its **?** says what the companion uses it for: reaching Unova, boss requirements, and the level your Pokémon fight at in that region. It starts at 5.
+- Until you've been to Unova or hold a Unova badge, its tab reads **Unova · later**, or **Unova · open** once you meet the official rule (an Elite Four and trainer level 80 in Kanto or Johto); it opens on what it takes to get there.
 - The requirements for reaching Unova, and which of them you already meet ("(not set)" until you enter a trainer level). The level requirement uses your Kanto or Johto level, whichever is higher.
 - On every gym you haven't earned, a folded **Your party** box: their strongest level next to yours, how many of the leader's Pokémon your moves hit super-effectively, how many of yours are at risk, and the best match on paper (or "under-levelled by N" when their strongest is 10 or more levels above yours). Open it to see each of their Pokémon: who of yours hits it hard (and with which move), and who it hits hard.
 
 **Bosses**
 - Until you've beaten an Elite Four, a line at the top says gym leaders like Brock or Falkner are on **Progress**.
-- The page is a short list, one line per boss: its place, its tag, "once a day" when its official guide says so, and its level. Click a line to open the boss's full card (or **Open all**). Above the list: the region tabs, a search over bosses, places and Pokémon, a **Sort** (Can I do it?, Level, Name) and filters with counts (**✓ Can do now**, **⏱ Waiting**, **✗ Not yet**, **? Check in game**, **Once a day**, **Ready again**; some appear only when they apply). The counts follow your search and the other filter. The search ignores spaces and dashes ("hooh" finds Ho-oh) and says when a boss is on another region's tab (**Also found in Unova: Kyurem**, with a button to go there). The companion remembers the region, filter and sort (**Settings › Region tabs** can change which region it opens on). A level from a team with modes reads **Lv 65+ (Normal)**; a boss with two places names the place its tag is for.
-- Each boss has a tag: **✓ Can do now**, **✗ Not yet: …** (what's missing, e.g. "the Kanto Elite Four" or "all 8 Johto badges (you have 3)"), or **? Check in game: …** (what the app can't see, such as quests, items or the story). The tags check your badges, Elite Four, trainer levels and the steps you've ticked, and compare your party's average level with the boss's ("a much stronger party"). Bosses you can do now come first, then "check in game", then "not yet", each from the lowest level up. Ho-oh and Lugia appear on both the Kanto and Johto tabs, marked "(also in …)".
+- The page is a short list, one line per boss: its place, its tag, "once a day" when its official guide says so, and its level. Click a line to open the boss's full card (or **Open all**). Above the list: the region tabs, a search over bosses, places and Pokémon, a **Sort** (Can I do it?, Level, Name) and filters with counts (**✓ Can do now**, **⏱ Waiting**, **Needs a step**, **✗ Not yet**, **Once a day**, **Ready again**; some appear only when they apply). The counts follow your search and the other filter. The search ignores spaces and dashes ("hooh" finds Ho-oh) and says when a boss is on another region's tab (**Also found in Unova: Kyurem**, with a button to go there). The companion remembers the region, filter and sort (**Settings › Region tabs** can change which region it opens on). A level from a team with modes reads **Lv 65+ (Normal)**; a boss with two places names the place its tag is for.
+- Each boss has a tag: **✓ Can do now**, **Needs 2 steps** (quests, tickets or story steps the app can't see; they're listed under the boss's line as tick boxes, so you can tick them right there), or **✗ Not yet: …** (what's missing, e.g. "the Kanto Elite Four" or "all 8 Johto badges (you have 3)"). The tags check your badges, Elite Four, trainer levels and the steps you've ticked, and compare your party's average level (at your trainer level cap in the boss's region) with the boss's ("a much stronger party"). Bosses you can do now come first, then those needing a step, then "not yet", each from the lowest level up.
+- Next to each name, the boss's official category: **Single**, **Mini Boss** or **3 Mode** (you choose Normal, Hard or Champion; Champion-mode Pokémon are Lv 110). Under it, what changes each day, where an official page or the staff say so: **place changes daily** (Volcarona, Wesker, Jeck Spearow), **team changes daily**, **form changes daily** (Mewtwo's Mega, Deoxys). It says what changes, not that you can fight it every day.
+- What no official page says, or where two official pages disagree (Coach Matt Han's requirement, Ho-oh's and Lugia's level), is in one quiet line under the list: **Not on any official page yet: …**. A boss whose only open point is one of these shows **✓ Can do now**.
+- An opened card reads in the order you play: **Am I ready?**, **How to unlock** (requirement, how to start, the tick boxes), **When** (how often, what changes daily), then the teams and **I fought it just now**.
+- **Players say (not official):** a small grey line where players say something the official pages don't (Volcarona every day, the Regis as dailies, Ho-oh at Lv 85), with where and when. The app never decides anything from it. The same line appears on Today (the Ghost). Ho-oh and Lugia appear on both the Kanto and Johto tabs, marked "(also in …)".
 - All 26 boss battles, by region: requirement, place, how to start the quest, the teams and their levels (bosses with **Normal**, **Hard** and **Champion** modes show a level for each), and **Your party** against each team.
-- **When:** how often, or on which days, a boss can be fought, where the official Boss Guides say so (e.g. Ho-oh at Bell Tower: once per day, again after the reset; Darkrai's dream changes by weekday; N only on Fridays). Where they don't, it says "Not listed on the official site yet. Check in game."
+- **When:** how often, or on which days, a boss can be fought, where the official Boss Guides say so (e.g. Ho-oh at Bell Tower: once per day, again after the reset; Darkrai's dream changes by weekday; N only on Fridays). Where they don't, **How often** says "Not on the official site yet."
 - **I fought it just now** on each fight logs the time (with **Undo**). The boss then waits with **⏱ Fought 50 min ago · again in 8 h 30 min**, and reads **✓ Fought … · ready again** once it's back: bosses whose official guide says once a day come back at the daily reset (10:00 UTC), the rest at the weekly boss reset (Tuesday 10:00 UTC). The card says which rule it used and why.
-- **Tick what you've done:** the quests, items, tickets and story steps a boss needs are tick boxes on its card. A tick counts for every boss that needs it (tick "the Sevii Islands main story" once and every boss that needs it sees it). Items in your **Bag** (the wings and bells, the Jade Orb, HMs…) tick themselves. A step needed each day, such as a daily ticket or password, clears at the daily reset. With everything ticked, the tag becomes **✓ Can do now**.
+- **Tick what you've done:** the quests, items, tickets and story steps a boss needs are tick boxes on its card. A tick counts for every boss that needs it (tick "the Sevii Islands main story" once and every boss that needs it sees it). Items in your **Bag** (the wings and bells, the Jade Orb, HMs…) tick themselves, and a field item counts for its HM (a Flashlight for Flash). A step needed each day, such as a daily ticket or password, clears at the daily reset. With everything ticked, the tag becomes **✓ Can do now**.
 - Under a fight you can do (or can once you check in game), the **Your party** box adds **What would help**: the top two fixes, as in a gym's Before box.
 - A team listing more than six Pokémon is a list the boss picks from; the page says so.
 - Where the official site lists one Pokémon once per moveset, the card says so: Ho-oh at Bell Tower, Lugia at Whirl Island and Ash's Pikachu are **one Pokémon with one of 3 movesets**. For the Hoenn trio's variations and Volcarona, nothing official says whether you meet one or all, so the card says to check in game.
 - If your party has two of the same Pokémon, the boss card says so: the official rule doesn't allow it against bosses.
 
 **Pokédex**
-- Pokémon, moves, abilities, items, places and NPCs, with search and filters (type, region, caught or not, and more). Each Pokédex number has one row; other forms (Pikachu's caps, Rotom's forms, Megas) open under **▸ N more forms**.
+- Pokémon, moves, abilities, items, places and NPCs, with search and filters (type, region, caught or not, and more). Each Pokédex number has one row; other forms (Pikachu's caps, Rotom's forms, Megas) open under **▸ N more forms**. Tick **Caught** right in the list; it works like the Caught box on the Pokémon's page (catch goals tick too, with Undo).
+- A Pokémon's page shows its **Abilities** at the top, under EV yield and catch rate (the hidden one marked; point at a name for what it does). The full Abilities box is still further down.
 - On a profile set up with **I'm new to PokéOne**, a Pokémon's page folds **Stats, abilities and type defenses** and **Moves** (with how many of each kind) until you open them; the companion remembers which you opened. Other profiles see them open. Places the official site lists only on the Pokémon's own page fold behind a count too (**▸ 38 places listed only on Politoed's page**), unless they're all the page has (Latias).
 - Every entry links to related entries. A Pokémon's page starts with its **evolution strip**: the whole family as pictures, with the condition on each arrow, regional lines (Alolan) on a row of their own and Megas and other forms in a row below; click any of them to open it. Then where to find it and its moves. An item's page shows where to buy or find it.
 - **Where to find** on a Pokémon's page has two lists: **Catch in the wild** (place, how, rarity, chance and when) and **Rewards, gifts and trades** (for example "Reward for beating the Kanto Elite Four" or "Hidden item: Helix Fossil"). Long lists keep your current region open and fold the others.
@@ -198,7 +200,7 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - **Type matchups:** pick one or two types to see what hits them hard.
 
 **Goals & notes**
-- A simple goal checklist. You can also add a "catch" goal from any Pokémon's page. Marking that Pokémon caught (or adding it to your team) ticks the goal, and ticking the goal marks it caught; one **Undo** takes back both.
+- A simple goal checklist. You can also add a "catch" goal from any Pokémon's page. Marking that Pokémon caught (or adding it to your team) ticks the goal, and ticking the goal marks it caught; one **Undo** takes back both. A goal typed as "Beat Brock" (or "Beat the Elite Four") ticks itself when you mark that badge (or that Elite Four) on Progress, again with one **Undo**; a rematch goal is left alone. Ticking Lapras caught in Union Cave during its Friday window also ticks the Lapras weekly on Today.
 - A free notes area.
 
 **Search anywhere:** the search box at the top finds any Pokémon, place, item, move, NPC or nature ("adamant"). Press **Ctrl+K** to jump to it. **Shift+Enter** on a place sets it as your location straight away. Escape clears the box; a second Escape leaves it.
@@ -206,20 +208,20 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 **Beside the game** (Settings › Beside the game)
 - **Ctrl+Shift+P** shows or hides the companion and **Ctrl+Shift+F** brings it up ready to search, even while the game is in front. You can pick other keys or turn them off.
 - **Keep the companion on top** keeps it over the game window (off at first).
-- **Mini**, at the end of the top bar (or **Ctrl+M**), turns the companion into a small window on top of the game (360 × 320 the first time, in the top-right corner): search, where you are, the next badge with two short lines under it (the first line of the Before box, e.g. "⚠ Train about 6 levels first", and the timers, e.g. "⏱ Daily reset in 3 h 12 min · 2 bosses ready · Ho-oh again in 8 h"; click one to open it in the full app), the Pokémon here with caught ticks, EV yield and rates, your party with **Lv ▲**, and your goals. Move it and resize it where you like; **◐** makes it a little see-through (100%, 90%, 80%). **📌** switches staying on top on or off (lit = on top of the game). **⤢ Full** (or Ctrl+M) puts the app back exactly as it was, and anything you open from the mini view opens there. All of it is kept after a restart.
+- **Mini**, at the end of the top bar (or **Ctrl+M**), turns the companion into a small window on top of the game (360 × 320 the first time, in the top-right corner): search, where you are, the next badge with two short lines under it (the first line of the Next box, e.g. "⚠ Train about 6 levels first", your top "for you" line, and the timers, e.g. "⏱ Daily reset in 3 h 12 min · 2 bosses ready · Ho-oh again in 8 h"; click one to open it in the full app), the Pokémon here with caught ticks, EV yield and rates, your party with **Lv ▲**, and your goals. Move it and resize it where you like; **◐** makes it a little see-through (100%, 90%, 80%). **📌** switches staying on top on or off (lit = on top of the game). **⤢ Full** (or Ctrl+M) puts the app back exactly as it was, and anything you open from the mini view opens there. All of it is kept after a restart.
 - In a narrow window, Current Location shows your badges, next badge and goals in one line at the top.
-- Keys inside the app: **Ctrl+1 … Ctrl+9** for the menu pages, top to bottom (Team is Ctrl+2, Bag Ctrl+3, Today Ctrl+4, Settings Ctrl+9), **Ctrl+L** for Change location, **Ctrl+H** for "I'm here now" on a place's page, **Alt+↑ / Alt+↓** for the places before and after on Current Location, **Ctrl+Z** for the Undo in the newest message (outside a text box). The full list is in Settings.
+- Keys inside the app (all of them: **Ctrl+/**, or Settings › Keyboard shortcuts): **Ctrl+1 … Ctrl+9** for the menu pages, top to bottom (Team is Ctrl+1, Current Location Ctrl+2, Bag Ctrl+3, Today Ctrl+4, Settings Ctrl+9), **Ctrl+L** for Change location, **Ctrl+H** for "I'm here now" on a place's page, **Alt+↑ / Alt+↓** for the places before and after on Current Location, **Ctrl+Z** for the Undo in the newest message (outside a text box). The full list is in Settings.
 
 **Zoom:** Ctrl + plus, Ctrl + minus, or Ctrl + 0 to go back to your text size.
 
-**Settings › Display** also has **Text size** (Smaller to Largest), **Open on** (the page the companion opens on, or the page you last had open), **Region tabs** (the region Progress and Bosses open on; unless you choose, Progress opens where you are and Bosses on the region you last picked) and **Motion** (Follow Windows or Reduce). All are kept after a restart.
+**Settings › Display** also has **Text size** (Smaller to Largest), **Open on** (the page the companion opens on: Team unless you pick another, or the page you last had open), **Region tabs** (the region Progress and Bosses open on; unless you choose, Progress opens where you are and Bosses on the region you last picked) and **Motion** (Follow Windows or Reduce). All are kept after a restart.
 
 **Going back:** the **← Back** button at the top, **Alt+Left** or your mouse's back button return to the previous page, tab and scroll position.
 
 ### A note on the information shown
 
 - Rates, levels and locations are as listed on the official site. If the game differs, **the game is right**. Please tell us when you notice a difference.
-- A small **†** next to a Pokémon on a place's list means the official site lists it on the Pokémon's own page but not on that place's page. The site disagrees with itself there, so treat it as "check in game".
+- A small **†** next to a wild Pokémon on a place's list means the official site lists it on the Pokémon's own page but not on that place's page. The site disagrees with itself there, so treat it as "check in game". (On the current data no wild row needs it; rewards, prizes, gifts, trades and fossils never get it.)
 - Some TM/HM rows are marked **verify** (and **⚠ … · check in game** in the Team editor) because the official site lists a different move for that machine number than it does everywhere else.
 - The **Johto** badge order is not published by the official site. The numbers 1–8 are the usual order, confirmed by a player; the game lets you take some gyms out of order.
 
@@ -329,13 +331,13 @@ That removes your profiles, backups, logs and picture cache. Nothing is stored a
 - **No connection to the game.** Location, badges and team are entered by you.
 - **Game data is a snapshot** from the official website (the date is in **Settings → About**). Anything changed in PokéOne since then won't be reflected until a later beta.
 - **The official site is incomplete or inconsistent in places:**
-  - Some Pokémon are listed on their own page but not on a place's page (marked †).
   - A few TM/HM entries conflict (marked "verify", or ⚠ in the Team editor).
   - The Johto badge order isn't published (the app's numbers come from a player).
   - Some "where to find" details, such as the rarity of Elite Four rewards, aren't available.
+- **The trainer level cap comes from players, not the official site**, and Unova isn't confirmed. If you see it work differently in game, please tell us.
 - **Matchups are by type only.** The party check, **Your party** boxes, the verdicts and "best match on paper" use the official type chart and the moves listed, plus a comparison of levels. Stats, held items and abilities (except Levitate) aren't counted, and there are no damage or win chances.
-- **The app can't see your quests, items or story.** On Bosses and Today they stay "check in game" until you tick them (or add the item to your Bag).
-- **Boss timing is only what the official guides say.** Where a guide says once a day, the countdown uses the daily reset; for every other boss it uses the official weekly boss reset (Tuesday). The **When** line says "check in game" where no guide gives a rule; if the game lets you fight sooner, please tell us.
+- **The app can't see your quests, items or story.** On Bosses they're "Needs a step", and on Today "check in game", until you tick them (or add the item to your Bag).
+- **Boss timing is only what the official guides say.** Where a guide says once a day, the countdown uses the daily reset; for every other boss it uses the official weekly boss reset (Tuesday). The **How often** line says "Not on the official site yet" where no guide gives a rule; if the game lets you fight sooner, please tell us.
 - **Catch rates, not catch chances.** The app shows the official catch rate but doesn't calculate your chance of catching.
 - **Where to train knows only what your Bag and team say.** It reads HMs and rods from your Bag, but not how far you are in the story, so it may still suggest a late-game place. In the Safari Zone, battles are normal but have a step limit and only Safari Balls; that EVs are given there is assumed, not confirmed.
 - **Starter help covers Kanto and Johto.** Unova can't be a starting region.
@@ -397,6 +399,6 @@ Beyond bugs, we'd especially like to hear:
 
 ## Version information
 
-- **Application:** PokeOne Companion **0.2.0-beta**
+- **Application:** PokeOne Companion **0.2.1-beta**
 - **Platform:** Windows 10/11, 64-bit (portable zip)
 - **Game data:** from the official PokéOne website. The exact data date is shown in **Settings → About**.

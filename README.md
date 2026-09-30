@@ -12,7 +12,7 @@ Sign in to GitHub with the account you were invited with, and accept the invitat
 
 You need Windows 10 or 11 (64-bit) and about 550 MB of free space.
 
-SHA-256 checksum, if you want to check the file: `CHECKSUM_AT_PUBLISH`
+SHA-256 checksum, if you want to check the file: `7ed0a7ff25cd6620d680099c99642958505244561c8a05d3899e48f0c0f7c811`
 
 Older versions are on the [releases page](https://github.com/sesh-labs/PokeOne-Companion/releases).
 
