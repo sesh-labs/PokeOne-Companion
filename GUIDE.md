@@ -1,6 +1,6 @@
 # PokeOne Companion — Beta Tester Guide
 
-Version 0.2.1-beta · Windows 10 and 11 (64-bit)
+Version 0.2.2-beta · Windows 10 and 11 (64-bit)
 
 Thanks for testing. This guide covers what the app does, how to install it and how to tell us what you find. No technical knowledge needed.
 
@@ -27,7 +27,7 @@ This is an early test version, so some things will be missing, odd or wrong. Fin
 
 ## Installation
 
-1. Download `PokeOne-Companion-0.2.1-beta-win-x64.zip`.
+1. Download `PokeOne-Companion-0.2.2-beta-win-x64.zip`.
 2. Right-click it, choose **Extract All…**, and pick a folder you'll remember, for example `Documents\PokeOne Companion`. Running it from inside the zip won't work properly.
 
 There's no installer: the extracted folder is the app. To remove it later, delete that folder. Your progress is kept somewhere else (see [Where your data is stored](#where-your-data-is-stored)).
@@ -38,7 +38,7 @@ There's no installer: the extracted folder is the app. To remove it later, delet
 2. Close the old app and extract the new zip to a new folder, not over the old one.
 3. Open the new app. Your profiles come along by themselves.
 
-The first time each profile opens, 0.2.1 upgrades it (to profile format 5, which makes room for the new 🛠 and ✨ markers) and keeps a copy of the old file first. Settings → Backups lists that copy as "before an update (always kept)". A message says what's new. Profiles from 0.1.8 are upgraded the same way, in one go.
+From 0.2.1 to 0.2.2 nothing is upgraded: both use the same profiles, so you can switch between them freely. From 0.2.0 or older, the first time each profile opens, 0.2.2 upgrades it (to profile format 5, which makes room for the new 🛠 and ✨ markers) and keeps a copy of the old file first. Settings → Backups lists that copy as "before an update (always kept)". A message says what's new. Profiles from 0.1.8 are upgraded the same way, in one go.
 
 ### Going back to an older version
 
@@ -50,7 +50,7 @@ If you didn't save a backup file first (going back to 0.1.8 only): 0.1.8 says "Y
 
 ## Launching the application
 
-1. Open the extracted folder `PokeOne-Companion-0.2.1-beta-win-x64`.
+1. Open the extracted folder `PokeOne-Companion-0.2.2-beta-win-x64`.
 2. Double-click **`PokeOne Companion.exe`**.
 3. **The first time only**, Windows may show a blue box saying *"Windows protected your PC"*. This happens because this beta is not digitally signed yet. It is not a sign of a problem with your computer. Click **More info**, then **Run anyway**.
 
@@ -128,6 +128,8 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 
 **Team**
 - Your **party** (up to six) and a **bench**: Pokémon you're keeping an eye on but not carrying right now. When your party is full, new Pokémon go to the bench. Adding a Pokémon (**Add a Pokémon…** here, or **Add to party** / **Add to bench** on its Pokédex page) opens its Edit window for the level, moves and the rest. While it's new, **Done** adds it; **Cancel (don't add)**, the **×** or Escape take the add back (the caught mark and goal tick too). Either way the message after it has **Undo**.
+- **Reorder your party:** drag the **⠿** in a party card's corner to a new place, or click it and press ← → (Home and End go to the ends). The mini view and Copy team use the same order. A bench Pokémon swapped into a full party takes the place of the one it replaces.
+- **Remove** asks first, and the message after it has **Undo**, which puts the Pokémon back where it was.
 - **Sort by** on the bench: order added, level, name or Pokédex number (favourites stay first). Remembered.
 - **The trainer level cap:** a Pokémon above your trainer level for the region fights at that level there (as players report; the official site doesn't say). When your trainer level caps a party Pokémon where you are, its card says so ("fights at Lv 32 in Johto") and the party lists show "Lv 50 → 32". All the advice uses the level it fights at, and when the cap is why you're behind, the line says to raise your trainer level (bounties, bosses and daily quests, as the official FAQ says) instead of "train". Unova isn't confirmed yet, so there levels are used as you recorded them. With no trainer level entered for a region, nothing is capped, and each box says so once.
 - **▲ / ▼** on a card change its level (hold to repeat). When it reaches the level at which it evolves on the official site, the companion asks **Did it evolve?**: "Yes, into Metapod" changes it and keeps its level, moves, nature, stats and notes (the message has **Undo** for 15 seconds, which also takes the new form off your caught list if evolving had ticked it); "No, keep Caterpie" leaves it. Raising the level in **Edit** asks too. A card with no level shows **Set level**.
@@ -135,7 +137,7 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 - **☆** on a card makes that Pokémon a favourite (this one Pokémon, not the species). **★ Favourites** shows only them (remembered), favourites come first on the bench, and the Pokémon's page says "★ Your favourite". In the advice a favourite only breaks ties: when two leads or two fixes are equally good, the favourite's comes first (its Why? says so); it never changes a verdict or a risk.
 - **Copy team** puts your party on the clipboard as text, one line per Pokémon with its moves below, ready to paste in a chat.
 - A card with no level says why a level helps: the gym and boss checks compare levels.
-- Edit nickname, level, ability, nature, moves, held item and notes. A Pokémon whose species has only one ability (Gastly: Levitate) gets it filled in when you add it. The editor opens with the cursor in **Level**. Type a move's name in any of the four move boxes (spaces and hyphens don't matter: "Dragonbreath" finds Dragon Breath), or click a box to see the whole list (level-up moves first, then TM/HM, tutor and egg moves); it only offers moves that Pokémon can learn according to the official site. A move marked **⚠ … · check in game** is one the official site contradicts itself about; pick it and a warning under the moves says why. A Team card with no moves has an **Add moves** link: the gym and boss advice needs moves to see who hits hard.
+- Edit nickname, level, ability, nature, moves, held item and notes. A Pokémon whose species has only one ability (Gastly: Levitate) gets it filled in when you add it. The editor opens with the cursor in **Level**. Type a move's name in any of the four move boxes (spaces and hyphens don't matter: "Dragonbreath" finds Dragon Breath), or click a box to see the whole list (level-up moves first, then TM/HM, tutor and egg moves); it only offers moves that Pokémon can learn according to the official site. A move marked **⚠ … · check in game** is one the official site contradicts itself about; pick it and a warning under the moves says why. **Change** next to a picked move opens the box in that spot, so the new move takes the old one's place (Escape keeps the old one); **Clear** empties it and the moves after it move up. A Team card with no moves has an **Add moves** link: the gym and boss advice needs moves to see who hits hard.
 - The nature on a Pokémon's card links to that nature's page.
 - **Stats (IVs and EVs)**, optional and folded away until you open it: IVs (0–31) and EVs (0–252 each, 510 in total), with the nature's raised and lowered stats marked. A short plain-words explanation of IVs, EVs and the EV plan sits at the top. If you type more EVs than fit, it says how many fit.
 - **EV plan:** pick a preset spread (e.g. Physical attacker: 252 Attack / 252 Speed / 4 HP) or type your own targets, then press **+1** once for each EV a beaten Pokémon gives (hold **+1** or **−1** down to count quickly, or type the number). Bars show "now / target", also on the Pokémon's card, which has its own quick +1; the app warns when a plan can no longer be finished under the 510 total. In a party, EVs count double or triple (official Discord FAQ): pick **×2** or **×3** beside the plan (on the card or in the Edit window, one choice for the whole app, remembered) and the buttons become **+2**/**+3**, while Where to train, the EV line on Current Location and its tips count per battle with it. Set it back to **×1 alone** when you play solo. **Where to train** lists places whose wild Pokémon mostly give the EVs you still need, with the table to use (e.g. **Fishing · Super Rod**) and about how many battles it takes. Places whose numbers are only approximate come last, marked **≈**. A tag says what battling there needs, read from your Bag's HMs and rods (and, for Headbutt, your team's moves): places you can reach come first ("uses Surf"), the others say e.g. "needs Surf (not in your Bag)". With no HMs or rods in the Bag, a hint asks you to add them. Places the official site lists without rates are on their own line; **On foot:** names a place that needs none of those when the top three all need something; "either way" means the official site lists several methods together.
@@ -208,7 +210,7 @@ Everything saves automatically as you go. The bottom-left corner shows **Saved**
 **Beside the game** (Settings › Beside the game)
 - **Ctrl+Shift+P** shows or hides the companion and **Ctrl+Shift+F** brings it up ready to search, even while the game is in front. You can pick other keys or turn them off.
 - **Keep the companion on top** keeps it over the game window (off at first).
-- **Mini**, at the end of the top bar (or **Ctrl+M**), turns the companion into a small window on top of the game (360 × 320 the first time, in the top-right corner): search, where you are, the next badge with two short lines under it (the first line of the Next box, e.g. "⚠ Train about 6 levels first", your top "for you" line, and the timers, e.g. "⏱ Daily reset in 3 h 12 min · 2 bosses ready · Ho-oh again in 8 h"; click one to open it in the full app), the Pokémon here with caught ticks, EV yield and rates, your party with **Lv ▲**, and your goals. Move it and resize it where you like; **◐** makes it a little see-through (100%, 90%, 80%). **📌** switches staying on top on or off (lit = on top of the game). **⤢ Full** (or Ctrl+M) puts the app back exactly as it was, and anything you open from the mini view opens there. All of it is kept after a restart.
+- **Mini**, at the end of the top bar (or **Ctrl+M**), turns the companion into a small window on top of the game (360 × 320 the first time, in the top-right corner): search, where you are, the next badge with two short lines under it (the first line of the Next box, e.g. "⚠ Train about 6 levels first", your top "for you" line, and the timers, e.g. "⏱ Daily reset in 3 h 12 min · 2 bosses ready · Ho-oh again in 8 h"; click one to open it in the full app), then four tabs: **Here** (the Pokémon here with caught ticks, EV yield and rates), **Party** (each Pokémon with **Lv ▲ ▼** and its moves), **Today** (the dailies and weeklies left in your region, to tick off) and **Goals**. It opens on the tab you used last. Move it and resize it where you like; **◐** makes it a little see-through (100%, 90%, 80%). **📌** switches staying on top on or off (lit = on top of the game). **⤢ Full** (or Ctrl+M) puts the app back exactly as it was, and anything you open from the mini view opens there. All of it is kept after a restart.
 - In a narrow window, Current Location shows your badges, next badge and goals in one line at the top.
 - Keys inside the app (all of them: **Ctrl+/**, or Settings › Keyboard shortcuts): **Ctrl+1 … Ctrl+9** for the menu pages, top to bottom (Team is Ctrl+1, Current Location Ctrl+2, Bag Ctrl+3, Today Ctrl+4, Settings Ctrl+9), **Ctrl+L** for Change location, **Ctrl+H** for "I'm here now" on a place's page, **Alt+↑ / Alt+↓** for the places before and after on Current Location, **Ctrl+Z** for the Undo in the newest message (outside a text box). The full list is in Settings.
 
@@ -399,6 +401,6 @@ Beyond bugs, we'd especially like to hear:
 
 ## Version information
 
-- **Application:** PokeOne Companion **0.2.1-beta**
+- **Application:** PokeOne Companion **0.2.2-beta**
 - **Platform:** Windows 10/11, 64-bit (portable zip)
 - **Game data:** from the official PokéOne website. The exact data date is shown in **Settings → About**.
