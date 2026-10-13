@@ -22,7 +22,7 @@ The mini view has tabs (Here, Party with moves, Today, Goals). You can change or
 
 ## More
 
-- **Checksum** (SHA-256), if you want to check the file: `689712a011846a8c37b7486c0e8b1b707dbfa5e6aac7633b1e477a8a8062601a`
+- **Checksum** (SHA-256), if you want to check the file: `e3edb5d173d5d46e894a3b9c9c17910f19468f94d424d51959119b1791575862`
 - **Older versions** are on the [releases page](https://github.com/sesh-labs/PokeOne-Companion/releases). The [guide](GUIDE.md) explains going back to one, and removing the app.
 - **Open questions:** some things the official site doesn't say, so the app marks them "check in game". If you know one of the [open questions](OPEN_QUESTIONS.md), use the "I know the answer" form.
 - **Your data** stays on your computer, in `%APPDATA%\PokeOne Companion`; nothing is uploaded. Before updating, save a backup (Settings → Backups → Save a backup file…).
