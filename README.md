@@ -18,7 +18,7 @@ Play with the app open beside the game, or in the mini view on top of it (Ctrl+M
 
 ## What's new in 0.2.2
 
-The mini view has tabs (Here, Party with moves, Today, Goals). You can change or clear one move and keep the others in their slots, drag your party into the game's order, and drag Pokémon between your party and bench. The party type check folds to one line, and the Bench and Utility groups fold away. Remove has an Undo, and the Team page warns about two of the same Pokémon. The [release notes](https://github.com/sesh-labs/PokeOne-Companion/releases/tag/v0.2.2-beta) have the full list.
+The mini view has tabs (Here, Party with moves, Today, Goals). You can change or clear one move and keep the others in their slots, drag your party into the game's order, and drag Pokémon between your party and bench. The party type check folds to a short summary, and the Bench and Utility groups fold away. Remove has an Undo, and the Team page warns about two of the same Pokémon. The [release notes](https://github.com/sesh-labs/PokeOne-Companion/releases/tag/v0.2.2-beta) have the full list.
 
 ## More
 
