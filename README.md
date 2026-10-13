@@ -18,11 +18,11 @@ Play with the app open beside the game, or in the mini view on top of it (Ctrl+M
 
 ## What's new in 0.2.2
 
-The mini view has tabs (Here, Party with moves, Today, Goals). You can change one move without redoing all four, and drag your party into the game's order. Remove has an Undo, and the Team page warns about two of the same Pokémon. The [release notes](https://github.com/sesh-labs/PokeOne-Companion/releases/tag/v0.2.2-beta) have the full list.
+The mini view has tabs (Here, Party with moves, Today, Goals). You can change or clear one move and keep the others in their slots, drag your party into the game's order, and drag Pokémon between your party and bench. The party type check folds to one line, and the Bench and Utility groups fold away. Remove has an Undo, and the Team page warns about two of the same Pokémon. The [release notes](https://github.com/sesh-labs/PokeOne-Companion/releases/tag/v0.2.2-beta) have the full list.
 
 ## More
 
-- **Checksum** (SHA-256), if you want to check the file: `0120881a8c218388d475032ec1aa8f5d765fd51115ed14939382e5fa9a82faba`
+- **Checksum** (SHA-256), if you want to check the file: `689712a011846a8c37b7486c0e8b1b707dbfa5e6aac7633b1e477a8a8062601a`
 - **Older versions** are on the [releases page](https://github.com/sesh-labs/PokeOne-Companion/releases). The [guide](GUIDE.md) explains going back to one, and removing the app.
 - **Open questions:** some things the official site doesn't say, so the app marks them "check in game". If you know one of the [open questions](OPEN_QUESTIONS.md), use the "I know the answer" form.
 - **Your data** stays on your computer, in `%APPDATA%\PokeOne Companion`; nothing is uploaded. Before updating, save a backup (Settings → Backups → Save a backup file…).
