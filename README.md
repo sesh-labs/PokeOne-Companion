@@ -22,7 +22,7 @@ HM steps now count only when a Pokémon in your party knows the move, as in the 
 
 ## More
 
-- **Checksum** (SHA-256), if you want to check the file: `16701a1340cbcee00d5b5c902341e16a9e534245b4c24e9230c0a86af5560995`
+- **Checksum** (SHA-256), if you want to check the file: `3577e4d53aad5e0813a359b7478631fb668d25c3000b4c924f14f2f28119426b`
 - **Older versions** are on the [releases page](https://github.com/sesh-labs/PokeOne-Companion/releases). The [guide](GUIDE.md) explains going back to one, and removing the app.
 - **Open questions:** some things the official site doesn't say, so the app marks them "check in game". If you know one of the [open questions](OPEN_QUESTIONS.md), use the "I know the answer" form.
 - **Your data** stays on your computer, in `%APPDATA%\PokeOne Companion`; nothing is uploaded. Before updating, save a backup (Settings → Backups → Save a backup file…).
