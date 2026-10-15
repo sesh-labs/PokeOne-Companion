@@ -363,11 +363,11 @@ The official site doesn't say everything, and sometimes contradicts itself. The 
 
 **Where to send reports:** https://github.com/sesh-labs/PokeOne-Companion/issues
 
-1. Open that page. It's private: you need the free GitHub account you were invited with.
+1. Open that page. Anyone can read it; to write a report you need a free GitHub account.
 2. Click **New issue** and pick **Bug report**, **Wrong or missing game information**, **Idea or suggestion** or **I know the answer**.
 3. Give it a short title (for example "Badge doesn't stay ticked after restart"), fill in the form, and click **Submit new issue**. You can follow replies on the same page.
 
-The **Report a problem on GitHub** button in the app's **Settings → Feedback & bug reports** opens the same page. Reports can be seen by the project owner and the other invited testers, so don't paste anything private. The diagnostic information is safe to include.
+The **Report a problem on GitHub** button in the app's **Settings → Feedback & bug reports** opens the same page. Reports are public, so don't paste anything private. The diagnostic information is safe to include.
 
 Please include:
 

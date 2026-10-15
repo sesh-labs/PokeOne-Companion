@@ -5,7 +5,7 @@ labels: ["answer"]
 body:
   - type: markdown
     attributes:
-      value: "Thanks for checking. The game is always right. Other testers can read this, so leave out anything private."
+      value: "Thanks for checking. The game is always right. Anyone can read this, so leave out anything private."
   - type: input
     id: question
     attributes:
