@@ -1,6 +1,6 @@
 # Open questions: help us check the game
 
-*Made 2026-09-26 from the app's data (2026-09-22). 351 open questions. This list shrinks as answers come in.*
+*Made 2026-09-29 from the app's data (2026-09-22). 84 open questions. This list shrinks as answers come in.*
 
 The companion takes its facts from the official PokéOne site, and sometimes the site contradicts itself or says nothing. You can settle it by looking in the game.
 
@@ -10,16 +10,11 @@ Each line reads: **id** · where to go · what to look at · *what the app says 
 
 ## Quick ones anyone can answer
 
-- **MOVE-REMINDER-LV1** · The Move Reminder, with any Pokémon that has "Lv 1" moves (for example Typhlosion: Gyro Ball, Eruption, Double-Edge) · Does the Move Reminder offer a Pokémon's "Lv 1" moves at any level? · *Now: the app assumes yes when it says a move "can be relearned".*
-- **SEASON-NOW** · Anywhere in game (a command such as /season, the menu, or a place that looks different in winter) · How do seasons work in PokéOne: how can you see the current season, and when does it change (every month, week, real-world season)? · *Now: the app doesn't know the season, so "Winter only" and other season spots are always listed.*
+- **SEASON-NOW** · The season shown next to the time in game · How long does each season last, and on which day does it change (so the app can know the current one)? · *Now: the app doesn't know the season, so "Winter only" and other season spots are always listed.*
 
 ## Bosses and wild Pokémon, by place
 
 ### Kanto
-
-**Cerulean Cave**
-
-- **BOSS-WHEN-mewtwo** · Cerulean Cave (talk to Dr. Tapps at the entrance of Cerulean Cave) · How often can you battle Mewtwo: every day, every week, or just once? · *Now: the Boss Guide doesn't say; the app counts down to the weekly boss reset (Tuesday).*
 
 **Each leader at their own place (Brock in Diglett's Cave…)**
 
@@ -33,10 +28,6 @@ Each line reads: **id** · where to go · what to look at · *what the app says 
 **Lavender Town Graveyard**
 
 - **RATE-lavender-town-graveyard-grass** · Lavender Town Graveyard, Grass (night) · Which Pokémon appear here? One seems to be missing from the list. · *Now: the chances add up to night 90.9%, not 100% ("≈ rough numbers").*
-
-**Mt. Silver**
-
-- **BOSS-WHEN-ash** · Mt. Silver (talk to Ash at the entrance of Mt. Silver) · How often can you battle Ash: every day, every week, or just once? · *Now: the Boss Guide doesn't say; the app counts down to the weekly boss reset (Tuesday).*
 
 **Pallet Town**
 
@@ -95,10 +86,6 @@ Each line reads: **id** · where to go · what to look at · *what the app says 
 
 - **BOSS-WHEN-ariana** · Icefall Cave Back cave (Four Island) · How often can you battle Ariana: every day, every week, or just once? · *Now: the Boss Guide doesn't say; the app counts down to the weekly boss reset (Tuesday).*
 
-**Rocket Warehouse (Five Island)**
-
-- **BOSS-WHEN-jessie-james** · Rocket Warehouse (Five Island) (talk to Looker on Five Island) · How often can you battle Jessie & James: every day, every week, or just once? · *Now: the Boss Guide doesn't say; the app counts down to the weekly boss reset (Tuesday).*
-
 **Trainer Tower (Seven Island)**
 
 - **DAILY-trainer-tower** · Trainer Tower (Seven Island) · Trainer Tower: how often can you do it, and when does it come back? · *Now: the guide doesn't say how often the tower itself can be run; the app treats it as weekly.*
@@ -119,10 +106,6 @@ Each line reads: **id** · where to go · what to look at · *what the app says 
 - **BOSS-ONE-hoenn-trio-rayquaza-variations** · Embedded Tower · Do you battle one Rayquaza or all 4 listed variations ("Rayquaza Variations")? · *Now: the site doesn't say; the app counts all 4.*
 - **BOSS-ONE-hoenn-trio-groudon-variations** · Embedded Tower · Do you battle one Groudon or all 4 listed variations ("Groudon Variations")? · *Now: the site doesn't say; the app counts all 4.*
 
-**Ilex Forest**
-
-- **DAILY-ruins-of-time** · Ruins of Time (through Ilex Forest) · Ruins of Time: how often can you do it, and when does it come back? · *Now: only the guide's heading calls it daily; the app treats it as daily.*
-
 **Lake Of Rage**
 
 - **DAILY-the-lake-of-rage** · Lake Of Rage · The Lake of Rage: how often can you do it, and when does it come back? · *Now: the guide says "Every Wednesday" with no time or time zone, so the app never shows it as on now; it also says its items can be picked up only once, not whether that is once ever or once a week; the app treats it as weekly.*
@@ -130,14 +113,6 @@ Each line reads: **id** · where to go · what to look at · *what the app says 
 **Pokémon League (Silver, below the market)**
 
 - **DAILY-johto-league-rematches** · Pokémon League (Silver, below the market) · Johto League Rematches: how often can you do it, and when does it come back? · *Now: the guide doesn't say how often; the official index lists it under Daily Guides; the app treats it as daily.*
-
-**Route 32**
-
-- **BOSS-WHEN-wesker** · Route 32 · How often can you battle Wesker: every day, every week, or just once? · *Now: the Boss Guide doesn't say; the app counts down to the weekly boss reset (Tuesday).*
-
-**Ruins of Alph**
-
-- **DAILY-ruins-of-alph-quest** · Ruins of Alph · Ruins of Alph Quest: how often can you do it, and when does it come back? · *Now: the guide doesn't say how often; the official index lists it under Daily Guides; the app treats it as daily.*
 
 **Whirl Island**
 
@@ -177,7 +152,7 @@ Each line reads: **id** · where to go · what to look at · *what the app says 
 
 **Undella Town**
 
-- **BOSS-NEEDS-cynthia** · Undella Town · What do you need before you can battle Cynthia, besides reaching Unova? · *Now: the official site lists no requirement ("check in game").*
+- **BOSS-NEEDS-cynthia** · Undella Town · What do you need before you can battle Cynthia? · *Now: the official site lists no requirement ("check in game").*
 
 **Unova Victory Road**
 
@@ -230,126 +205,4 @@ If you have this Pokémon, check in game whether it can learn the move (for exam
 
 ## If you have time: Pokémon only named on their own page
 
-For 260 places, a Pokémon's own official page says it lives there, but the place's page doesn't list it. The app shows these with a † and "check in game". If you're at one of these places and **see or don't see** these Pokémon, tell us. One answer (the place's id) can cover the whole place: say which ones you saw, and which you looked for and didn't find.
-
-### Kanto
-
-- **ONLY-cerulean-hidden-chamber** · Cerulean Hidden Chamber · Crobat, Golem, Graveler, Masquerain, Noivern
-- **ONLY-cerulean-ruins** · Cerulean Ruins · Crobat, Golem, Masquerain
-- **ONLY-indigo-plateau** · Indigo Plateau · Alolan Exeggutor
-- **ONLY-pokemon-mansion** · Pokemon Mansion · Arcanine, Ninetales, Magmortar
-- **ONLY-pokemon-tower** · Pokemon Tower · Gengar
-- **ONLY-power-plant** · Power Plant · Electivire, Electrode, Magnezone, Raichu
-- **ONLY-route-17** · Route 17 · Dodrio, Magcargo
-- **ONLY-route-20** · Route 20 · Tentacruel, Golduck, Kingdra
-- **ONLY-seafoam-island** · Seafoam Island · Crobat, Slowking, Kingdra, Kingler, Seadra
-- **ONLY-underground-path-north-south** · Underground Path North-South · Nidoqueen, Nidoran♀, Nidorina
-- **ONLY-vermilion-backroad** · Vermilion Backroad · Fearow
-- **ONLY-victory-road** · Victory Road · Crobat, Golem, Machamp, Steelix, Hariyama
-- Longer lists (the number of Pokémon; open the place in the app to see which): **ONLY-celadon-city** (31), **ONLY-cerulean-cave** (12), **ONLY-cerulean-channel** (7), **ONLY-cerulean-city** (10), **ONLY-cerulean-evil-tomb** (9), **ONLY-cerulean-lighthouse-trail** (15), **ONLY-cerulean-valley** (7), **ONLY-cerulean-valley-bay** (7), **ONLY-cerulean-valley-lower** (15), **ONLY-cerulean-valley-upper** (7), **ONLY-cinnabar-island** (9), **ONLY-fuchsia-city** (14), **ONLY-indigo-league** (34), **ONLY-kanto-safari-zone** (17), **ONLY-lavender-town-cemetery** (10), **ONLY-lavender-town-graveyard** (10), **ONLY-mt-moon** (10), **ONLY-mt-silver** (24), **ONLY-pallet-town** (17), **ONLY-pewter-city** (11), **ONLY-pumpkin-field** (10), **ONLY-rock-tunnel** (10), **ONLY-route-1** (13), **ONLY-route-2** (14), **ONLY-route-2-east** (19), **ONLY-route-3** (27), **ONLY-route-4** (15), **ONLY-route-5** (12), **ONLY-route-6** (20), **ONLY-route-7** (14), **ONLY-route-8** (12), **ONLY-route-9** (14), **ONLY-route-10** (15), **ONLY-route-11** (9), **ONLY-route-12** (21), **ONLY-route-13** (27), **ONLY-route-14** (16), **ONLY-route-15** (18), **ONLY-route-16** (7), **ONLY-route-18** (13), **ONLY-route-19** (8), **ONLY-route-21** (12), **ONLY-route-22** (20), **ONLY-route-23** (6), **ONLY-route-24** (20), **ONLY-route-25** (28), **ONLY-route-26** (11), **ONLY-route-27** (9), **ONLY-route-28** (10), **ONLY-tohjo-falls** (6), **ONLY-vermilion-city** (11), **ONLY-vermilion-roller-hockey** (15), **ONLY-viridian-city** (14), **ONLY-viridian-forest** (10)
-
-### Sevii Islands
-
-- **ONLY-birth-island** · Birth Island · Togekiss, Togetic, Jirachi
-- **ONLY-bond-bridge-three-island** · Bond Bridge (Three Island) · Golduck, Kingdra, Slowbro, Slowking
-- **ONLY-canyon-entrance-seven-island** · Canyon Entrance (Seven Island) · Donphan, Furret, Golduck, Slowbro, Slowking
-- **ONLY-green-path-six-island** · Green Path (Six Island) · Golduck, Kingdra, Octillery, Slowbro, Slowking
-- **ONLY-icefall-cave-b1f-four-island** · Icefall Cave B1F (Four Island) · Crobat, Dewgong, Mamoswine, Piloswine, Weavile
-- **ONLY-kindle-road-one-island** · Kindle Road (One Island) · Golduck, Golem, Kingdra
-- **ONLY-lost-cave-five-island** · Lost Cave (Five Island) · Crobat, Gengar, Honchkrow, Mismagius
-- **ONLY-mt-ember-one-island** · Mt. Ember (One Island) · Golem, Machamp
-- **ONLY-mt-ember-outside-one-island** · Mt. Ember Outside (One Island) · Golem, Machamp, Machoke
-- **ONLY-mt-ember-summit-one-island** · Mt. Ember Summit (One Island) · Articuno, Moltres, Zapdos
-- **ONLY-navel-rock-bottom** · Navel Rock Bottom · Hakamo-o, Kommo-o, Latias, Latios
-- **ONLY-navel-rock-top** · Navel Rock Top · Porygon-Z, Porygon2, Latias, Latios
-- **ONLY-outcast-island-six-island** · Outcast Island (Six Island) · Golduck, Kingdra, Octillery, Slowbro, Slowking
-- **ONLY-pattern-bush-six-island** · Pattern Bush (Six Island) · Ariados, Beedrill, Butterfree, Ledian
-- **ONLY-rocket-warehouse-five-island** · Rocket Warehouse (Five Island) · Togekiss, Togetic
-- **ONLY-ruby-path** · Ruby Path · Golem, Graveler, Magcargo
-- **ONLY-sevault-canyon-seven-island** · Sevault Canyon (Seven Island) · Donphan, Golem, Pupitar, Steelix, Tyranitar
-- **ONLY-tanoby-ruins-seven-island** · Tanoby Ruins (Seven Island) · Golduck, Kingdra, Octillery, Slowbro, Slowking
-- **ONLY-trainer-tower-seven-island** · Trainer Tower (Seven Island) · Kingdra, Octillery, Slowbro, Slowking
-- **ONLY-treasure-beach-one-island** · Treasure Beach (One Island) · Tangrowth, Golduck, Slowbro, Slowking, Kingdra
-- Longer lists (the number of Pokémon; open the place in the app to see which): **ONLY-altering-cave-six-island** (8), **ONLY-berry-forest-three-island** (9), **ONLY-cape-brink-two-island** (7), **ONLY-five-island** (8), **ONLY-five-island-meadow** (7), **ONLY-four-island** (8), **ONLY-icefall-cave-1f-four-island** (7), **ONLY-icefall-cave-back-cave-four-island** (8), **ONLY-icefall-cave-entrance-four-island** (10), **ONLY-memorial-pillar-five-island** (7), **ONLY-one-island** (7), **ONLY-resort-gorgeous-five-island** (8), **ONLY-ruin-valley-six-island** (11), **ONLY-three-island** (8), **ONLY-two-island** (11), **ONLY-water-labyrinth-five-island** (8), **ONLY-water-path-six-island** (9)
-
-### Johto
-
-- **ONLY-azalea-town** · Azalea Town · Ambipom, Fearow
-- **ONLY-bell-tower** · Bell Tower · Gengar, Haunter, Raticate, Drampa
-- **ONLY-burned-tower** · Burned Tower · Crobat, Golbat, Magmortar, Weezing
-- **ONLY-cianwood-city** · Cianwood City · Gyarados, Starmie
-- **ONLY-cliff-edge-gate** · Cliff Edge Gate · Gyarados, Politoed, Poliwhirl, Poliwrath
-- **ONLY-dragons-den** · Dragon's Den · Dragonite, Kingdra
-- **ONLY-ice-path** · Ice Path · Crobat, Mamoswine, Piloswine
-- **ONLY-new-bark-town** · New Bark Town · Ariados, Exeggutor, Forretress, Ledian, Noctowl
-- **ONLY-olivine-city** · Olivine City · Gyarados, Starmie, Electrode
-- **ONLY-route-40** · Route 40 · Cloyster, Gyarados, Starmie
-- **ONLY-route-41** · Route 41 · Cloyster, Gyarados
-- **ONLY-slowpoke-well** · Slowpoke Well · Crobat, Slowking, Gyarados
-- **ONLY-sprout-tower** · Sprout Tower · Gengar, Haunter, Raticate
-- **ONLY-whirl-island** · Whirl Island · Crobat, Dewgong, Kingler, Drampa
-- Longer lists (the number of Pokémon; open the place in the app to see which): **ONLY-battle-frontier-park** (57), **ONLY-blackthorn-city** (7), **ONLY-cherrygrove-city** (13), **ONLY-cliff-cave** (7), **ONLY-dark-cave** (7), **ONLY-ecruteak-city** (8), **ONLY-ecruteak-grave-yard** (13), **ONLY-ecruteak-graveyard-cave** (7), **ONLY-embedded-tower** (9), **ONLY-goldenrod-city** (21), **ONLY-ilex-forest** (16), **ONLY-johto-safari** (74), **ONLY-lake-of-rage** (6), **ONLY-mt-mortar** (12), **ONLY-mystery-island** (26), **ONLY-national-park** (14), **ONLY-resident-evil-event-map** (12), **ONLY-route-29** (11), **ONLY-route-30** (17), **ONLY-route-31** (19), **ONLY-route-32** (19), **ONLY-route-33** (10), **ONLY-route-34** (18), **ONLY-route-35** (20), **ONLY-route-36** (15), **ONLY-route-37** (10), **ONLY-route-38** (15), **ONLY-route-39** (11), **ONLY-route-42** (8), **ONLY-route-43** (13), **ONLY-route-44** (12), **ONLY-route-45** (15), **ONLY-route-46** (7), **ONLY-route-47** (14), **ONLY-route-48** (14), **ONLY-ruins-of-alph** (10), **ONLY-union-cave** (8), **ONLY-violet-city** (7)
-
-### Destiny Islands
-
-- **ONLY-aurous-valley** · Aurous Valley · Drapion, Escavalier, Fletchinder, Talonflame, Vespiquen
-- **ONLY-basburn-hills** · Basburn Hills · Ledian, Raticate
-- **ONLY-idle-trail** · Idle Trail · Fletchinder, Spewpa, Talonflame, Vivillon
-- **ONLY-matagonie-falls** · Matagonie Falls · Gyarados, Whiscash, Politoed, Poliwrath, Sharpedo
-- **ONLY-matagonie-path** · Matagonie Path · Altaria, Bibarel, Scizor
-- **ONLY-old-bridgeway-forest** · Old BridgeWay Forest · Fletchinder, Machamp, Machoke, Raticate, Talonflame
-- **ONLY-old-pokemon-tower** · Old Pokémon Tower · Gengar
-- **ONLY-old-pokemon-tower-hidden-chamber** · Old Pokémon Tower Hidden Chamber · Banette, Dusclops, Dusknoir, Gengar
-- **ONLY-seeker-ridge** · Seeker Ridge · Drapion, Escavalier, Fletchinder, Talonflame, Vespiquen
-- **ONLY-the-mine** · The Mine · Alolan Graveler, Crobat, Gigalith, Steelix
-- **ONLY-the-old-route** · The Old Route · Accelgor, Fletchinder, Talonflame
-- Longer lists (the number of Pokémon; open the place in the app to see which): **ONLY-altis-town** (6), **ONLY-basburn-nook** (7), **ONLY-basburn-valley** (7), **ONLY-beacon-beach** (8), **ONLY-beacon-town** (9), **ONLY-breezeaway-woodlands** (10), **ONLY-bronzeville-village-path** (9), **ONLY-grassy-way** (8), **ONLY-kaunolu-village** (7), **ONLY-matagonie-mountain** (7), **ONLY-nasserweg-cave** (7), **ONLY-old-valley** (11), **ONLY-quarantine-bay** (8), **ONLY-ridge-ranch** (6)
-
-### Unova
-
-- **ONLY-abundant-shrine** · Abundant Shrine · Altaria, Landorus Therian
-- **ONLY-castelia-city** · Castelia City · Zoroark
-- **ONLY-castelia-sewers** · Castelia Sewers · Crobat, Golbat, Raticate
-- **ONLY-celestial-tower** · Celestial Tower · Beheeyem, Chandelure, Lampent
-- **ONLY-cold-storage** · Cold Storage · Conkeldurr, Gurdurr, Vanillish, Vanilluxe
-- **ONLY-desert-resort** · Desert Resort · Crustle, Darmanitan Zen Mode, Krokorok, Krookodile
-- **ONLY-dragonspiral-tower** · Dragonspiral Tower · Golurk, Mienshao, Thundurus Therian
-- **ONLY-dragonspiral-tower-entrance** · Dragonspiral Tower Entrance · Vanilluxe, Mienshao
-- **ONLY-dragonspiral-tower-outside** · Dragonspiral Tower Outside · Mienshao, Vanillish, Vanilluxe
-- **ONLY-dreamyard-basement** · Dreamyard Basement · Musharna
-- **ONLY-dreamyard-ruins** · Dreamyard Ruins · Simipour, Simisage, Simisear
-- **ONLY-driftveil-bridge-cave** · Driftveil Bridge Cave · Landorus Therian, Tornadus Incarnate, Tornadus Therian
-- **ONLY-driftveil-drawbridge** · Driftveil Drawbridge · Swanna
-- **ONLY-giant-chasm-crater** · Giant Chasm Crater · Weavile, Landorus Incarnate, Landorus Therian
-- **ONLY-icirrus-city** · Icirrus City · Accelgor, Seismitoad
-- **ONLY-lacunosa-town** · Lacunosa Town · Shaymin Sky
-- **ONLY-marvelous-bridge** · Marvelous Bridge · Gyarados
-- **ONLY-mistralton-cave** · Mistralton Cave · Fraxure, Gigalith, Haxorus, Swoobat, Excadrill
-- **ONLY-moor-of-icirrus** · Moor of Icirrus · Accelgor, Whiscash, Keldeo Resolute Forme
-- **ONLY-nacrene-city** · Nacrene City · Lilligant
-- **ONLY-nimbasa-city** · Nimbasa City · Fan Rotom, Frost Rotom, Heat Rotom, Mow Rotom, Wash Rotom
-- **ONLY-p2-laboratory** · P2 Laboratory · Klang, Klinklang, Scrafty
-- **ONLY-reversal-mountain** · Reversal Mountain · Drapion, Gigalith, Grumpig, Swoobat
-- **ONLY-reversal-mountain-outside** · Reversal Mountain Outside · Drapion, Flygon
-- **ONLY-route-u1** · Route U1 · Stoutland, Scrafty
-- **ONLY-route-u4** · Route U4 · Darmanitan, Darmanitan Zen Mode, Krokorok, Krookodile, Scrafty
-- **ONLY-route-u7** · Route U7 · Amoonguss, Beartic, Sawsbuck, Thundurus Therian
-- **ONLY-route-u8** · Route U8 · Accelgor
-- **ONLY-route-u9** · Route U9 · Bisharp
-- **ONLY-route-u10** · Route U10 · Braviary, Mandibuzz
-- **ONLY-route-u11** · Route U11 · Escavalier, Gliscor
-- **ONLY-route-u13** · Route U13 · Starmie, Amoonguss, Drapion, Sealeo, Walrein
-- **ONLY-route-u15** · Route U15 · Fan Rotom, Frost Rotom, Heat Rotom, Mow Rotom, Wash Rotom
-- **ONLY-route-u16** · Route U16 · Duosion, Garbodor, Gothitelle, Gothorita, Reuniclus
-- **ONLY-route-u18** · Route U18 · Scrafty, Lanturn, Volcarona
-- **ONLY-route-u19** · Route U19 · Watchog, Liepard, Poliwrath
-- **ONLY-route-u22** · Route U22 · Mienshao, Gliscor
-- **ONLY-route-u23** · Route U23 · Braviary, Mandibuzz, Politoed
-- **ONLY-seaside-cave** · Seaside Cave · Eelektross, Gigalith, Swoobat
-- **ONLY-strange-house** · Strange House · Chandelure, Crobat, Gothitelle, Lampent, Reuniclus
-- **ONLY-undella-town** · Undella Town · Keldeo Resolute Forme, Snorlax
-- **ONLY-unova-victory-road-2-cave** · Unova Victory Road 2 Cave · Gigalith, Hydreigon, Politoed, Steelix
-- **ONLY-unova-victory-road-2-cliffside** · Unova Victory Road 2 Cliffside · Conkeldurr
-- **ONLY-unova-victory-road-2-outside** · Unova Victory Road 2 Outside · Conkeldurr, Poliwrath
-- **ONLY-wellspring-cave** · Wellspring Cave · Boldore, Gigalith, Swoobat, Excadrill, Politoed
-- Longer lists (the number of Pokémon; open the place in the app to see which): **ONLY-black-tower** (6), **ONLY-castelia-city-hidden-yard** (8), **ONLY-castelia-city-park** (11), **ONLY-challenge-rock** (10), **ONLY-challengers-cave** (6), **ONLY-chargestone-cave** (8), **ONLY-clay-tunnel** (6), **ONLY-desert-resort-entrance** (6), **ONLY-dream-of-fire** (11), **ONLY-dream-of-grass-holly-hills** (8), **ONLY-dream-of-grass-pleasant-forest** (8), **ONLY-dream-of-grass-whispering-wood** (12), **ONLY-dream-of-water-concealed-bay** (7), **ONLY-dream-of-water-murmuring-falls** (10), **ONLY-dream-of-water-secret-bay** (9), **ONLY-floccesy-ranch** (9), **ONLY-giant-chasm** (6), **ONLY-giant-chasm-depths** (6), **ONLY-lostlorn-forest** (7), **ONLY-nuvema-town** (6), **ONLY-pinwheel-forest-inner-area** (7), **ONLY-pinwheel-forest-outer-area** (6), **ONLY-relic-castle-desert-resort** (6), **ONLY-relic-castle-relic-passage** (6), **ONLY-relic-passage** (7), **ONLY-route-u2** (7), **ONLY-route-u3** (8), **ONLY-route-u5** (6), **ONLY-route-u6** (8), **ONLY-route-u20** (10), **ONLY-twist-mountain** (15), **ONLY-unova-victory-road** (11), **ONLY-virbank-complex** (9), **ONLY-virbank-complex-entrance** (9), **ONLY-white-forest** (88)
+For 0 places, a Pokémon's own official page says it lives there, but the place's page doesn't list it. The app shows these with a † and "check in game". If you're at one of these places and **see or don't see** these Pokémon, tell us. One answer (the place's id) can cover the whole place: say which ones you saw, and which you looked for and didn't find.

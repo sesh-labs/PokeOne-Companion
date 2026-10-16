@@ -6,7 +6,7 @@ This is a beta, so expect rough edges. It's an unofficial fan project, not conne
 
 ## 1. Download
 
-Open **[0.2.3-beta](https://github.com/sesh-labs/PokeOne-Companion/releases/tag/v0.2.3-beta)** and under Assets pick `PokeOne-Companion-0.2.3-beta-win-x64.zip` (about 160 MB). You need Windows 10 or 11 (64-bit) and about 550 MB of free space.
+Open **[0.2.4-beta](https://github.com/sesh-labs/PokeOne-Companion/releases/tag/v0.2.4-beta)** and under Assets pick `PokeOne-Companion-0.2.4-beta-win-x64.zip` (about 160 MB). You need Windows 10 or 11 (64-bit) and about 550 MB of free space.
 
 ## 2. Install
 
@@ -16,13 +16,13 @@ Right-click the zip, choose Extract All…, then double-click `PokeOne Companion
 
 Play with the app open beside the game, or in the mini view on top of it (Ctrl+M). Then open [Issues](https://github.com/sesh-labs/PokeOne-Companion/issues) → New issue, or in the app Settings → Feedback & bug reports, and tell us what you couldn't find, what confused you or felt slow, anything that doesn't match the game, and out of 10, whether you'd keep it open while you play.
 
-## What's new in 0.2.3
+## What's new in 0.2.4
 
-HM steps now count only when a Pokémon in your party knows the move, as in the game, and an HM mule waiting outside your party gets a "put it in your party" hint. Field tools like the Bat and the Hammer count everywhere. The daily reset countdown sits at the bottom of the menu on every page, and you can add an item to your Bag from the search box with Shift+Enter. Unova's trainer level caps your Pokémon too. The [release notes](https://github.com/sesh-labs/PokeOne-Companion/releases/tag/v0.2.3-beta) have the full list.
+The gym and boss advice is now a short card: Win? · Lead · Watch · Fix, each with Why? for the details. Pokédex pages open as tabs next to the search box, so you can keep a few Pokémon up while you farm, and every Pokémon page has a catch calculator that uses the official calculator's rules. Closing the app while adding a Pokémon no longer leaves it half-added. Thanks to googleit for the ideas behind the tabs and the catch calculator. The [release notes](https://github.com/sesh-labs/PokeOne-Companion/releases/tag/v0.2.4-beta) have the full list.
 
 ## More
 
-- **Checksum** (SHA-256), if you want to check the file: `5758cefd50ceb28ab6f4a3bb83686600cd7947954fcb6fae6a6cf0c2f0e68502`
+- **Checksum** (SHA-256), if you want to check the file: `7036733eb2a5abda906651256aa3c001667f0d2b8607a6bffa9da9e0e1dd1acc`
 - **Older versions** are on the [releases page](https://github.com/sesh-labs/PokeOne-Companion/releases). The [guide](GUIDE.md) explains going back to one, and removing the app.
 - **Open questions:** some things the official site doesn't say, so the app marks them "check in game". If you know one of the [open questions](OPEN_QUESTIONS.md), use the "I know the answer" form.
 - **Your data** stays on your computer, in `%APPDATA%\PokeOne Companion`; nothing is uploaded. Before updating, save a backup (Settings → Backups → Save a backup file…).
